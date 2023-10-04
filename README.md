@@ -1,6 +1,6 @@
-# ravenous practice project
+# portfolio project
 
-Created to practice React using a Yelp API.
+Portfolio project using React.
 
 ## Available Scripts
 

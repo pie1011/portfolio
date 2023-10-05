@@ -2,30 +2,14 @@ import React from "react";
 import "./Cover.css";
 
 import Container from 'react-bootstrap/Container';
-import NavBar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 
 const Cover = () => {
     return (
-        <Container className="container container-fluid min-vh-100 h-100 w-100" >
-            <div className="d-flex w-100 h-100 p-3 mx-auto flex-column">
-                <NavBar sticky="top" className="mb-auto">
-                    <div>
-                        <p className="float-md-start mb-0">katieharshman.com</p>
-                        <nav className="nav nav-masthead justify-content-center float-md-end">
-                            <a
-                                className="nav-link fw-bold py-1 px-0 active"
-                                aria-current="page"
-                                href="#empty-link"
-                            >Home</a
-                            >
-                            <a className="nav-link fw-bold py-1 px-0" href="#empty-link">Features</a>
-                            <a className="nav-link fw-bold py-1 px-0" href="#empty-link">Contact</a>
-                        </nav>
-                    </div>
-                </NavBar>
+            <div className="d-flex min-vh-100 w-100 h-100 p-3 mx-auto flex-column" style={{border: "1px solid red"}}>
+                <div className="mb-auto"></div>
 
-                <Container className="cover-container px-3">
+                <Container className="cover-container align-self-center px-3">
                     <h1 className="display-1 name-header">Hi, I'm Katie.</h1>
                     <p className="lead">
                         Cover is a one-page template for building simple and beautiful home
@@ -40,7 +24,7 @@ const Cover = () => {
                 </Container>
 
                 <footer className="mt-auto text-white-50">
-                    <a href="#empty-link" className="down-arrow">
+                    <a href="#About" className="down-arrow">
                         <i class="bi bi-arrow-down-circle-fill"></i>
                     </a>
                     <p>
@@ -50,7 +34,6 @@ const Cover = () => {
 
                 </footer>
             </div>
-        </Container>
     )
 }
 

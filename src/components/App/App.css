@@ -76,3 +76,16 @@ html, body {
   color: #000;
   background-color: #ffd1bf;
 }
+
+.navigation a {
+  color: #e7fffc;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0 1rem; 
+  border-bottom: .2rem solid transparent;
+}
+.navigation a:hover {
+  color: #ffd1bf;
+  border-bottom-color: #ffd1bf;
+}

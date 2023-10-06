@@ -58,17 +58,6 @@ html, body {
 /* 
   * Custom Buttons
   */
-.portfolio-down {
-}
-
-.down-arrow {
-  font-size: 2rem;
-  color: #00ffe1; 
-  cursor: pointer;
-}
-.down-arrow:hover {
-  color: #ffd1bf;
-}
 
 .btn-portfolio {
   color: #000;
@@ -92,6 +81,26 @@ html, body {
   border-bottom-color: #ffd1bf;
 }
 
+.portfolio-nav-text, .portfolio-nav-text a {
+  color: #00ffe1;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: .75rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.portfolio-nav-text a:hover {
+  color: #ffd1bf!important;
+
+}
+ .portfolio-nav-text a:focus, .portfolio-nav-text a:active, .nav-link.active, .navbar-nav .nav-link.active {
+  color: #00ffe1;
+}
+
+@keyframes nav-link-animation {
+  from {color: #00ffe1;}
+  to {color: #00ffe1;}
+}
 
 .name-header {
   font-family: "Poppins", sans-serif;
@@ -100,17 +109,20 @@ html, body {
 }
 
 .down-arrow {
+  text-decoration: none;
+
   font-size: 2rem;
   color: #00ffe1; 
   cursor: pointer;
 }
+
 .down-arrow:hover {
   color: #ffd1bf;
 }
 
 .portfolio-button {
-  color: #fff;
-  background-color: #1abc9c;
+  color: #000;
+  background-color: #00ffe1;
   border: none;
   border-radius: 5px;
   text-transform: uppercase;

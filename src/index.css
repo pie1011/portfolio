@@ -17,6 +17,7 @@ code {
 }
 
 #root {
+  --bs-navbar-active-color: #fff;
   font-size: 16pt;
   width: 100%;
   background-image: radial-gradient(circle, #28303b, #1e252f, #14191f, #0a0c0f, #000000);

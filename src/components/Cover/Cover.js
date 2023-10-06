@@ -15,7 +15,7 @@ const Cover = (props) => {
     console.log("Description: " + description);
 
     return (
-        <Container className="d-flex min-vh-100 w-100 p-3 mt-auto mx-auto flex-column" style={{ border: "1px solid red" }}>
+        <Container id="Home" className="d-flex min-vh-100 w-100 p-3 mt-auto mx-auto flex-column" style={{ border: "1px solid red" }}>
 
             <Container className="cover-container align-self-center my-auto px-3 text-center">
                 <h1 className="name-header">Katie Harshman</h1>
@@ -31,7 +31,7 @@ const Cover = (props) => {
             </Container>
 
             <Container fluid className="portfolio-down mt-auto pb-5 mx-auto text-white-50 text-center">
-                    <a href="#About" className="down-arrow">
+                    <a href="#About" className="down-arrow" aria-label="Move to the About section.">
                         <i className="bi bi-arrow-down-circle-fill"></i>
                     </a>
                 </Container>

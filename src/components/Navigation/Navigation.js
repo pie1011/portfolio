@@ -3,24 +3,21 @@ import "./Navigation.css";
 
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Navigation = () => {
     return (
-        <Navbar sticky="top" className="w-100 portfolio-navbar w-100">
-            <Container fluid>
-                <Navbar.Brand href="#home" className="nav nav-masthead text-light px-5"><i class="bi bi-stars"></i> Katie Harshman</Navbar.Brand>
-                <Navbar.Toggle />
-                <Navbar.Collapse className="navigation d-flex justify-content-end px-5">
-                    <a href="#empty-link" >
-                        Home
-                    </a>
-                    <a href="#empty-link" >
-                        Resume
-                    </a>
-                    <a href="#empty-link" >
-                        Contact
-                    </a>
+        <Navbar collapseOnSelect expand="lg" className="portfolio-navbar w-100 fixed-top text-center">
+            <Container fluid className="px-5 px-xxlg-1 mx-5 mx-xxlg-1">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="portfolio-navbar-text mx-auto">
+                        <Nav.Link href="#Home">Home</Nav.Link>
+                        <Nav.Link href="#About">About</Nav.Link>
+                        <Nav.Link href="#Resume">Resume</Nav.Link>
+                        <Nav.Link href="#Contact">Contact</Nav.Link>
+                    </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

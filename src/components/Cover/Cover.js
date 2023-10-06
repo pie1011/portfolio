@@ -4,36 +4,39 @@ import "./Cover.css";
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
-const Cover = () => {
-    return (
-            <div className="d-flex min-vh-100 w-100 p-3 mx-auto flex-column" style={{border: "1px solid red"}}>
-                <div className="mb-auto"></div>
+const Cover = (props) => {
 
-                <Container className="cover-container align-self-center px-3">
-                    <h1 className="display-1 name-header">Hi, I'm Katie.</h1>
-                    <p className="lead">
-                        Cover is a one-page template for building simple and beautiful home
-                        pages. Download, edit the text, and add your own fullscreen background
-                        photo to make it your own.
-                    </p>
-                    <p className="lead">
-                        <Button className="btn btn-portfolio" size="lg">
-                            Learn more
-                        </Button>
-                    </p>
+    if (!props.data) return null;
+
+    const project = props.data.project;
+    const github = props.data.github;
+    const name = props.data.name;
+    const description = props.data.description;
+    console.log("Description: " + description);
+
+    return (
+        <Container className="d-flex min-vh-100 w-100 p-3 mt-auto mx-auto flex-column" style={{ border: "1px solid red" }}>
+
+            <Container className="cover-container align-self-center my-auto px-3 text-center">
+                <h1 className="name-header">Katie Harshman</h1>
+                <p className="lead">
+                    {description}
+                </p>
+                <p className="lead">
+                    <Button className="btn portfolio-button" size="lg">
+                        Learn more
+                    </Button>
+                </p>
+
+            </Container>
+
+            <Container fluid className="portfolio-down mt-auto pb-5 mx-auto text-white-50 text-center">
+                    <a href="#About" className="down-arrow">
+                        <i className="bi bi-arrow-down-circle-fill"></i>
+                    </a>
                 </Container>
 
-                <footer className="mt-auto text-white-50">
-                    <a href="#About" className="down-arrow">
-                        <i class="bi bi-arrow-down-circle-fill"></i>
-                    </a>
-                    <p>
-                        Made with ♥️ by Katie
-                    </p>
-                    <p id="empty-link">filler for links</p>
-
-                </footer>
-            </div>
+        </Container>
     )
 }
 

@@ -6,14 +6,11 @@ import Button from 'react-bootstrap/Button';
 
 const About = () => {
     return (
-        <div className="cover-container d-flex w-100 min-vh-100 h-100 p-3 mx-auto flex-column">
-
-            <Container className="px-3">
-                <h1 className="display-1 name-header">Hi, I'm Katie.</h1>
+        <Container id="About" className="cover-container d-flex w-100 min-vh-100 h-100 p-3 mx-auto flex-column">
+            <Container className="my-auto px-3 text-center">
+                <h1 className="display-1 name-header">About Me</h1>
                 <p className="lead">
-                    Cover is a one-page template for building simple and beautiful home
-                    pages. Download, edit the text, and add your own fullscreen background
-                    photo to make it your own.
+                    Test
                 </p>
                 <p className="lead">
                     <Button className="btn btn-portfolio" size="lg">
@@ -21,21 +18,8 @@ const About = () => {
                     </Button>
                 </p>
             </Container>
-
-
-        </div>
+        </Container>
     )
 }
 
 export default About;
-
-// <footer className="mt-auto text-white-50">
-// <a href="#empty-link" className="down-arrow">
-//     <i class="bi bi-arrow-down-circle-fill"></i>
-// </a>
-// <p>
-//     Made with ♥️ by Katie
-// </p>
-// <p id="empty-link">filler for links</p>
-
-// </footer>

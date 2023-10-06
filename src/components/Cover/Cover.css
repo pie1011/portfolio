@@ -77,25 +77,3 @@
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
 }
-
-.name-header {
-  font-family: "Shadows Into Light", sans-serif;
-}
-
-.down-arrow {
-  font-size: 2rem;
-  color: #00ffe1; 
-  cursor: pointer;
-}
-.down-arrow:hover {
-  color: #ffd1bf;
-}
-
-.btn-portfolio {
-  color: #000;
-  background-color: #00ffe1;
-}
-.btn-portfolio:hover {
-  color: #000;
-  background-color: #ffd1bf;
-}

@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div className="cover-container d-flex w-100 min-vh-100 h-100 p-3 mx-auto flex-column">
 
-            <main className="px-3">
+            <Container className="px-3">
                 <h1 className="display-1 name-header">Hi, I'm Katie.</h1>
                 <p className="lead">
                     Cover is a one-page template for building simple and beautiful home
@@ -20,7 +20,7 @@ const About = () => {
                         Learn more
                     </Button>
                 </p>
-            </main>
+            </Container>
 
 
         </div>

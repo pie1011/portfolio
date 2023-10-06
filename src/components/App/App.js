@@ -15,8 +15,8 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Container className="container container-fluid min-vh-100 h-100 w-100 mx-auto"  style={{border: "1px solid red"}}>
-      <Navigation />
+      <Container id="App" className="container-fluid min-vw-100 p-0"  style={{border: "1px solid blue"}}>
+        <Navigation />
         <Cover />
         <About />
       </Container>

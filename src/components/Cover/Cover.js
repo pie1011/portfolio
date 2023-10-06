@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 const Cover = () => {
     return (
-            <div className="d-flex min-vh-100 w-100 h-100 p-3 mx-auto flex-column" style={{border: "1px solid red"}}>
+            <div className="d-flex min-vh-100 w-100 p-3 mx-auto flex-column" style={{border: "1px solid red"}}>
                 <div className="mb-auto"></div>
 
                 <Container className="cover-container align-self-center px-3">

@@ -18,15 +18,19 @@ const Cover = (props) => {
         <Container id="Home" className="d-flex min-vh-100 w-100 p-3 mt-auto mx-auto flex-column" style={{ border: "1px solid red" }}>
 
             <Container className="cover-container align-self-center my-auto px-3 text-center">
-                <h1 className="name-header">Katie Harshman</h1>
+                <h1 className="name-header">{ name }</h1>
+                <hr className="my-4" />
                 <p className="lead">
                     {description}
                 </p>
-                <p className="lead">
-                    <Button className="btn portfolio-button" size="lg">
-                        Learn more
+                <div className="d-flex flex-column flex-lg-row justify-content-center">
+                    <Button className="btn portfolio-button m-3 px-3" size="lg" href={project}>
+                        <i className="bi bi-journals"></i> Projects
                     </Button>
-                </p>
+                    <Button className="btn portfolio-button secondary m-3 px-3" size="lg" href={github}>
+                        <i className="bi bi-github"></i> GitHub
+                    </Button>
+                </div>
 
             </Container>
 

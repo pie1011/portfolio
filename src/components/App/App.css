@@ -97,10 +97,6 @@ html, body {
   color: #00ffe1;
 }
 
-@keyframes nav-link-animation {
-  from {color: #00ffe1;}
-  to {color: #00ffe1;}
-}
 
 .name-header {
   font-family: "Poppins", sans-serif;
@@ -126,11 +122,28 @@ html, body {
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
-  font-size: .75rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   font-weight: 600;
+}
+.portfolio-button.secondary {
+  color: #000;
+  background-color: #a2a2a2;
 }
 .portfolio-button:hover {
   color: #000;
   background-color: #ffd1bf;
 }
+
+@media screen and (max-width: 768px) {
+  .name-header {
+    font-size: 2rem;
+  }
+  .down-arrow {
+    font-size: 1.5rem;
+  }
+  .portfolio-button {
+    font-size: .75rem;
+  }
+}
+  

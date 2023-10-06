@@ -1,13 +1,15 @@
 /*
  * Globals
  */
-
-/* Custom default button */
-.btn-light,
-.btn-light:hover,
-.btn-light:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+:root {
+  --color-bright: #00ffe1;
+  --color-dark: #1e252f;
+  --color-darker: #14191f;
+  --color-darkest: #0a0c0f;
+  --color-light: #e7fffc;
+  --color-lighter: #f7ffff;
+  --color-lightest: #ffffff;
+  --color-accent: #ffd1bf;
 }
 
 
@@ -18,7 +20,7 @@
 body {
   font-family: "Poppins", sans-serif;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  background-image: radial-gradient(circle, #1e252f, #14191f, #0a0c0f);
+  background-image: radial-gradient(circle, #1e252f, #14191f, rgb(10, 12, 15));
   /* #28303b,  */
 }
 

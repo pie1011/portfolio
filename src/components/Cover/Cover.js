@@ -15,10 +15,10 @@ const Cover = (props) => {
     console.log("Description: " + description);
 
     return (
-        <Container id="Home" className="d-flex min-vh-100 w-100 p-3 mt-auto mx-auto flex-column">
+        <Container id="Home" className="d-flex min-vh-100 w-100 p-3 mt-auto mx-auto flex-column ">
 
             <Container className="cover-container align-self-center my-auto px-3 text-center">
-                <h1 className="name-header">{ name }</h1>
+                <h1 className="name-header">{name}</h1>
                 <hr className="my-4" />
                 <p className="lead">
                     {description}
@@ -31,14 +31,13 @@ const Cover = (props) => {
                         <i className="bi bi-github"></i> GitHub
                     </Button>
                 </div>
-
             </Container>
 
             <Container fluid className="portfolio-down mt-auto pb-5 mx-auto text-white-50 text-center">
-                    <a href="#About" className="down-arrow" aria-label="Move to the About section.">
-                        <i className="bi bi-arrow-down-circle-fill"></i>
-                    </a>
-                </Container>
+                <a href="#About" className="down-arrow" aria-label="Move to the About section.">
+                    <i className="bi bi-arrow-down-circle-fill"></i>
+                </a>
+            </Container>
 
         </Container>
     )

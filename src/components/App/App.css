@@ -68,6 +68,12 @@ html, body {
   background-color: #ffd1bf;
 }
 
+/* 
+  *
+  * Custom Portfolio Nav
+  *
+  */
+
 .navigation a {
   color: #e7fffc;
   text-decoration: none;
@@ -85,7 +91,7 @@ html, body {
   color: #00ffe1;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  font-size: .75rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -105,9 +111,7 @@ html, body {
 }
 
 .down-arrow {
-  text-decoration: none;
-
-  font-size: 2rem;
+  font-size: 3rem;
   color: #00ffe1; 
   cursor: pointer;
 }
@@ -140,9 +144,12 @@ html, body {
     font-size: 2rem;
   }
   .down-arrow {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .portfolio-button {
+    font-size: .75rem;
+  }
+  .portfolio-nav-text {
     font-size: .75rem;
   }
 }

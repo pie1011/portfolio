@@ -17,7 +17,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Container id="App" className="container-fluid min-vw-100 p-0"  style={{border: "1px solid blue"}}>
+      <Container id="App" className="container-fluid min-vw-100 p-0">
         <Navigation />
         <Cover data={resumeDetails.main}  />
         <About data={resumeDetails.main} />

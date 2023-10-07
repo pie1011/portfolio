@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Navigation from '../Navigation/Navigation';
 import Cover from '../Cover/Cover';
 import About from '../About/About';
+import Resume from '../Resume/Resume';
 import Foot from '../Foot/Foot';
 
 class App extends React.Component {
@@ -19,8 +20,9 @@ class App extends React.Component {
     return (
       <Container id="App" className="container-fluid min-vw-100 p-0">
         <Navigation />
-        <Cover data={resumeDetails.main}  />
+        <Cover data={resumeDetails.main} />
         <About data={resumeDetails.main} />
+        <Resume data={resumeDetails.resume} />
         <Foot />
       </Container>
     );

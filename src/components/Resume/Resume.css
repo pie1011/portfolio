@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,400&family=Shadows+Into+Light&display=swap');
+
+.portfolio-resume {
+  background:linear-gradient(rgba(10, 12, 15, 0), var(--color-darker));
+  background-color: var(--color-dark);
+
+}
+.portfolio-resume-container {
+  margin-top: 75px;
+}
+.portfolio-resume-heading {
+  max-width: 350px;
+}
+
+.portfolio-resume-site {
+  color: var(--color-accent);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.portfolio-resume-hr {
+  border: 1px solid var(--color-accent);
+  width: 100%;
+}
+
+hr {
+  color: var(--color-accent);
+}
+
+em {
+  padding-top: 3px;
+}
+span.bull {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+ul li::before {
+  color: var(--color-accent);
+}

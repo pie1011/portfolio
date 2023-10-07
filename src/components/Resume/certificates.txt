@@ -1,0 +1,19 @@
+Learn Python 3 Course - Codecademy
+Linear Data Structures Course - Codecademy
+Build Python Web Apps with Flask Skill Path - Codecademy
+Learn JavaScript Course - Codecademy
+Learn CSS Course - Codecademy
+Learn HTML Course - Codecademy
+Learn Color Design Course - Codecademy
+Building Interactive JavaScript Websites Course - Codecademy
+Build a Website with HTML, CSS, and Github Pages Skill Path - Codecademy
+Learn Intermediate CSS Course - Codecademy
+Introduction to IT Course - Codecademy
+Create REST APIs with Spring and Java Skill Path - Codecademy
+Introduction to DevOps Course - Codecademy
+
+Enterprise Design Thinking Practitioner - IBM
+
+
+JavaScript Algorithms and Data Structures - freeCodeCamp
+Responsive Web Design - freeCodeCamp

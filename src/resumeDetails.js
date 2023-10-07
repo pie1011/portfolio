@@ -1,10 +1,11 @@
 export const resumeDetails = {
     "main": {
       "name": "Katie Harshman",
-      "description": "I'm a full stack developer with a passion for learning looking for opportunities to grow professionally and work on projects that make a difference in the world.",
-      "image": "KatieProfile.jpg",
-      "bio": "I am a motivated and detail-oriented full-stack developer with experience in front-end and back-end technologies. I enjoy working with tools such as Visual Studio Code, Git & GitHub, languages and frameworks like Python (Flask, Django) and JavaScript (React), and various database technologies including SQL, Postgres, and MongoDB. With a strong foundation in HTML, CSS, and responsive design, I prioritize user-friendly and accessible web experiences.",
-      "bio2": "I have pursued continuous learning through training and certifications from platforms like Udemy, Codecademy, FreeCodeCamp, and Harvard via edX.org, covering topics such as clean code practices, software testing, and web development.",
+      "description": "Full-stack developer with a passion for learning, looking for opportunities to grow professionally and contribute to projects that make a difference.",
+      "image": "public/images/KatieProfile.jpg",
+      "bio1": "I am a motivated and detail-oriented full-stack developer with experience in front-end and back-end technologies.",
+      "bio2": "I enjoy working with tools such as Visual Studio Code, Git & GitHub, languages and frameworks like Python (Flask, Django) and JavaScript (React), and various database technologies including SQL, Postgres, and MongoDB. With a strong foundation in HTML, CSS, and responsive design, I prioritize user-friendly and accessible web experiences.",
+      "bio3": "I have pursued continuous learning through training and certifications from platforms like Udemy, Codecademy, FreeCodeCamp, and Harvard via edX.org, covering topics such as clean code practices, software testing, and web development.",
       "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
       "email": "youremailhere@gmail.com",
       "phone": "555-555-5555",
@@ -116,16 +117,44 @@ export const resumeDetails = {
   
       "work": [
         {
-          "company": "Awesome Design Studio",
-          "title": "Senior UX God ",
-          "years": "March 2018 - Present",
-          "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+          "company": "ThriveDX",
+          "title": "Instructor ",
+          "years": "April 2022 - Present",
+          "description": [
+            "Teach and mentor cohorts of students (SDSU, UNLV, UCLB, etc.) on programming languages, web development, database management, and software engineering principles.", 
+            "Participate in instructor training, professional development, and curriculum review to stay current with industry trends and best practices."
+          ]
         },
         {
-          "company": "Super Cool Studio",
-          "title": "Junior bug fixer",
-          "years": "March 2017 - February 2018",
-          "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+          "company": "IBM",
+          "title": "Software Engineer Apprentice ",
+          "years": "April 2022 - April 2023",
+          "description": [
+            "Highlight: Mentored teams in Developer Jumpstart Program-Team BEV won Judges’ Choice Award for Advanced Drone 2.0 Workshop.",
+            "Collaborate with senior engineers to develop and maintain software tools for IBM Content Designers, utilizing technologies including Python and JavaScript.",
+            "Participate in the development life cycle: design, coding, testing, deployment.",
+            "Engage in team-building activities and company-wide events, mentor otherdevelopers.",
+            "Attend training sessions and complete coursework to develop technical skills and knowledge of IBM products and services."
+          ]
+        },
+                {
+          "company": "Pro Appliance Installation",
+          "title": "Web Development + Support ",
+          "years": "April 2016 - Present",
+          "description": [
+            "Design and maintain company website Fun Fact: Streamlined client intake!", 
+            "Administrative support with forms, documents, template."
+          ]
+        },
+        {
+          "company": "Pro Appliance Installation",
+          "title": "Owner + Operations Manager ",
+          "years": "April 2016 - May 2017",
+          "description": [
+            "Plan and implement business strategies, plans and procedures (startup).",
+            "Oversee daily operations (IT, marketing, sales, service order dispatch, etc.).", 
+            "Manage phones, schedule projects, interact with clients and vendors."
+         ]
         }
       ],
       "education": [

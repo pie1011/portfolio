@@ -1,16 +1,17 @@
 import React from "react";
-// import { useState } from "react";
+import { useState } from "react";
 import "./Resume.css";
 
 import Container from 'react-bootstrap/Container';
+import Carousel from 'react-bootstrap/Carousel';
 
 const Resume = (props) => {
 
-    // const [index, setIndex] = useState(0);
-
-    // const handleSelect = (selectedIndex) => {
-    //     setIndex(selectedIndex);
-    // };
+    const [index, setIndex] = useState(0);
+  
+    const handleSelect = (selectedIndex) => {
+      setIndex(selectedIndex);
+    };
 
     if (!props.data) return null;
 
@@ -61,30 +62,37 @@ const Resume = (props) => {
 
     return (
         <Container id="Resume" className="portfolio-resume d-flex flex-column min-vw-100 min-vh-100">
+            <Carousel activeIndex={index} onSelect={handleSelect} data-bs-interval="false" data-bs-ride="true">
+                <Carousel.Item>
+                    <Container className="portfolio-resume-container d-flex flex-column flex-lg-row">
+                        <div className="portfolio-resume-heading p-1 p-lg-5 text-end">
+                            <h2 className="display-1 name-header">Training</h2>
+                            <p className="lead">
+                                A sampling of certifcations I have completed.
+                            </p>
+                        </div>
+                        <div className="p-1 p-lg-5">
+                            {displayTraining}
+                        </div>
+                    </Container>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Container className="portfolio-resume-container d-flex flex-column flex-lg-row">
+                        <div className="portfolio-resume-heading p-1 p-lg-5 text-end">
+                            <h2 className="display-1 name-header">Work</h2>
+                        </div>
+                        <div className="p-1 p-lg-5">
+                            {displayWork}
+                        </div>
+                    </Container>
+                </Carousel.Item>
+            </Carousel>
 
-            <Container className="portfolio-resume-container d-flex flex-column flex-lg-row">
-                <div className="portfolio-resume-heading p-1 p-lg-5 text-end">
-                    <h2 className="display-1 name-header">Training</h2>
-                    <p className="lead">
-                        A sampling of certifcations I have completed.
-                    </p>
-                </div>
-                <div className="p-1 p-lg-5">
-                    {displayTraining}
-                </div>
-            </Container>
 
-            <Container className="portfolio-resume-container d-flex flex-column flex-lg-row">
-                <div className="portfolio-resume-heading p-1 p-lg-5 text-end">
-                    <h2 className="display-1 name-header">Work</h2>
-                </div>
-                <div className="p-1 p-lg-5">
-                    {displayWork}
-                </div>
-            </Container>
+
 
             <Container fluid className="portfolio-down mt-auto pb-5 mx-auto text-white-50 text-center">
-                <a href="#Projects" className="down-arrow" aria-label="Move to the Projects section.">
+                <a href="#About" className="down-arrow" aria-label="Move to the About section.">
                     <i className="bi bi-arrow-down-circle-fill"></i>
                 </a>
             </Container>

@@ -26,8 +26,8 @@ const Projects = (props) => {
                         {projects.description}
                     </Card.Text>
                     <Card.Text  className="text-center">
-                        <a className="portfolio-button-link mx-1" href={projects.url}><i class="bi bi-binoculars-fill"></i></a>
-                        <a className="portfolio-button-link mx-1" href={projects.url}><i class="bi bi-github"></i></a>
+                        <a className="portfolio-button-link mx-1" href={projects.url}><i className="bi bi-binoculars-fill"></i></a>
+                        <a className="portfolio-button-link mx-1" href={projects.url}><i className="bi bi-github"></i></a>
                     </Card.Text>
 
                 </Card.Body>
@@ -37,14 +37,14 @@ const Projects = (props) => {
     });
 
     return (
-        <Container id="About" className="portfolio-about d-flex flex-column min-vw-100 min-vh-100">
+        <Container id="Projects" className="portfolio-about d-flex flex-column min-vw-100 min-vh-100">
             <Container className="portfolio-projects-container d-flex flex-row flex-wrap justify-content-around mb-3 p-3">
 
                 {displayProjects}
 
             </Container>
             <Container fluid className="portfolio-down mt-auto pb-5 mx-auto text-white-50 text-center">
-                <a href="#Resume" className="down-arrow" aria-label="Move to the About section.">
+                <a href="#Home" className="down-arrow" aria-label="Move to the Home section.">
                     <i className="bi bi-arrow-down-circle-fill"></i>
                 </a>
             </Container>

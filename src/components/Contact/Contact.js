@@ -1,4 +1,7 @@
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
+
 import "./Contact.css";
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -8,6 +11,13 @@ import Button from 'react-bootstrap/Button';
 
 const Contact = (props) => {
 
+    const [success, setSuccess] = useState(false);
+
+    useEffect(() => {
+        if (window.location.search.includes('success=true')) {
+            setSuccess(true);
+        }
+    }, []);
 
     return (
         <Container id="Contact" className="portfolio-contact d-flex flex-column min-vw-100 min-vh-100">
@@ -18,7 +28,13 @@ const Contact = (props) => {
                 </div>
 
                 <Container fluid className="p-1 p-lg-5">
-                    <Form name="contact" method="POST"   action="/#/submission" netlify>
+                    <Form
+                        name="contactForm"
+                        method="POST"
+                        data-netlify="true"
+                        action="/?success=true"
+                    >
+                        <input type="hidden" name="contactForm" value="contactForm"></input>
                         <Form.Group className="mb-3" controlId="contactForm.Name" data-bs-theme="dark">
                             <Form.Label>Name</Form.Label>
                             <Form.Control type="text" placeholder="" className="portfolio-input" />
@@ -35,9 +51,12 @@ const Contact = (props) => {
                             <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" rows={3} className="portfolio-input mb-3" />
                             <div className="g-recaptcha" data-sitekey="6LeGLOEdAAAAACIfTEFMm4j_jMg3IVmdd-KLzLQ0"></div>
-                            <Button className="portfolio-button mt-5" type="submit"><i class="bi bi-send-fill"></i> Send</Button>
+                            <Button className="portfolio-button mt-5" type="submit"><i className="bi bi-send-fill"></i> Send</Button>
                         </Form.Group>
                     </Form>
+                    {success && (
+                        <p style={{ color: "green" }}>Thanks for your message! </p>
+                    )}
                 </Container>
 
             </Container>

@@ -14,7 +14,7 @@ const Projects = (props) => {
 
     const displayProjects = props.data.projects.map(function (projects) {
         return (
-            <Container className="portfolio-projects-card-container rounded-2 m-1 m-lg-3 shadow-lg">
+            <Container className="portfolio-projects-card-container rounded-2 m-1 m-lg-3 shadow-lg" key={projects.image}>
             <Card key={projects.title} className="portfolio-projects-card my-2 py-3 px-2" data-bs-theme="dark" >
                 <Card.Title className="py-2 text-center">
                     <h4 className="portfolio-resume-site">{projects.title}</h4>
@@ -39,9 +39,7 @@ const Projects = (props) => {
     return (
         <Container id="Projects" className="portfolio-about d-flex flex-column min-vw-100 min-vh-100">
             <Container className="portfolio-projects-container d-flex flex-row flex-wrap justify-content-around mb-3 p-3">
-
                 {displayProjects}
-
             </Container>
             <Container fluid className="portfolio-down mt-auto pb-5 mx-auto text-white-50 text-center">
                 <a href="#Home" className="down-arrow" aria-label="Move to the Home section.">

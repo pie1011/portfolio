@@ -253,7 +253,7 @@ export const resumeDetails = {
       {
         "title": "Sample Project 01",
         "description": "My Travel Blog for my post-university travels",
-        "image": "0",
+        "image": "1",
         "url": "https://www.github.com/pie1011"
       },
       {

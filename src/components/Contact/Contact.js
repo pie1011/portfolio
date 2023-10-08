@@ -19,7 +19,7 @@ const Contact = (props) => {
                 </div>
 
                 <Container fluid className="p-1 p-lg-5">
-                    <Form name="contact" method="POST"   action="/submission.html" netlify>
+                    <Form name="contact" method="POST"   action="/Submission" netlify>
                         <Form.Group className="mb-3" controlId="contactForm.Name" data-bs-theme="dark">
                             <Form.Label>Name</Form.Label>
                             <Form.Control type="text" placeholder="" className="portfolio-input" />

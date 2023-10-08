@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,400&family=Shadows+Into+Light&display=swap');
+
+.portfolio-contact {
+  background:linear-gradient(rgba(10, 12, 15, 0), var(--color-darker));
+  background-color: var(--color-dark);
+
+}
+.portfolio-contact-container {
+  margin-top: 75px;
+}
+
+hr {
+  color: var(--color-accent);
+}

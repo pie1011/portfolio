@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./Contact.css";
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';

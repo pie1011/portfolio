@@ -34,7 +34,7 @@ const Contact = (props) => {
                         </Form.Group>
                         <Form.Group className="mb-5" controlId="contactForm.Message" data-bs-theme="dark">
                             <Form.Label>Message</Form.Label>
-                            <Form.Control as="textarea" rows={3} className="portfolio-input" />
+                            <Form.Control as="textarea" rows={3} className="portfolio-input mb-3" />
                             <div className="g-recaptcha" data-sitekey="6LeGLOEdAAAAACIfTEFMm4j_jMg3IVmdd-KLzLQ0"></div>
                             <Button className="portfolio-button mt-5" type="submit"><i class="bi bi-send-fill"></i> Send</Button>
                         </Form.Group>

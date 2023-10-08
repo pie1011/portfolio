@@ -22,7 +22,7 @@ const Contact = (props) => {
                     <Form name="contact" method="POST" netlify>
                         <Form.Group className="mb-3" controlId="contactForm.Name" data-bs-theme="dark">
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="text" placeholder="name@example.com" className="portfolio-input" />
+                            <Form.Control type="text" placeholder="" className="portfolio-input" />
                         </Form.Group>
                         <Form.Group className="mb-5" controlId="contactForm.Email" data-bs-theme="dark">
                             <Form.Label>Email address</Form.Label>
@@ -30,7 +30,7 @@ const Contact = (props) => {
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="contactForm.Subject" data-bs-theme="dark">
                             <Form.Label>Subject</Form.Label>
-                            <Form.Control type="text" placeholder="name@example.com" className="portfolio-input" />
+                            <Form.Control type="text" placeholder="" className="portfolio-input" />
                         </Form.Group>
                         <Form.Group className="mb-5" controlId="contactForm.Message" data-bs-theme="dark">
                             <Form.Label>Message</Form.Label>

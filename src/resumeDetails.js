@@ -10,7 +10,7 @@ export const resumeDetails = {
       "email": "youremailhere@gmail.com",
       "phone": "555-555-5555",
       "github": "https://github.com/pie1011",
-      "project": "https://github.com/pie1011",
+      "projects": "#Projects",
       "address": {
         "street": "(Your Street)",
         "city": "Campbell",
@@ -147,7 +147,7 @@ export const resumeDetails = {
           ]
         },
         {
-          "company": "Pro Appliance Installation",
+          "company": "Pro Appliance Installation ",
           "title": "Owner + Operations Manager ",
           "years": "April 2016 - May 2017",
           "description": [
@@ -205,76 +205,40 @@ export const resumeDetails = {
     "portfolio": {
       "projects": [
         {
-          "title": "Canadian Wanderlust",
-          "category": "My Travel Blog for my post-university travels",
-          "image": "01.jpg",
-          "url": "https://www.canadianwanderlust.com"
+          "title": "Sample Project 00",
+          "description": "My Travel Blog for my post-university travels",
+          "image": "0",
+          "url": "https://www.github.com/pie1011"
         },
         {
-          "title": "Fury Fighting Gear",
-          "category": "(offline now) A fighting gear company I started",
-          "image": "02.jpg",
-          "url": "http://www.timbakerdev.com"
+          "title": "Sample Project 01",
+          "description": "My Travel Blog for my post-university travels",
+          "image": "0",
+          "url": "https://www.github.com/pie1011"
         },
         {
-          "title": "Original Thai Food",
-          "category": "Website I built for a restaurant I like in Thailand",
-          "image": "03.jpg",
-          "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+          "title": "Sample Project 02",
+          "description": "My Travel Blog for my post-university travels",
+          "image": "2",
+          "url": "https://www.github.com/pie1011"
         },
         {
-          "title": "Resume Website",
-          "category": "A React based resume website template",
-          "image": "04.jpg",
-          "url": "http://www.timbakerdev.com"
+          "title": "Sample Project 03",
+          "description": "My Travel Blog for my post-university travels",
+          "image": "3",
+          "url": "https://www.github.com/pie1011"
         },
         {
-          "title": "Smirkspace",
-          "category": "(MVP Only) A React and Meteor based chat University project.",
-          "image": "05.jpg",
-          "url": "http://www.smirkspace.com"
+          "title": "Sample Project 04",
+          "description": "My Travel Blog for my post-university travels",
+          "image": "4",
+          "url": "https://www.github.com/pie1011"
         },
         {
-          "title": "Canadian Wanderlust",
-          "category": "My Travel Blog for my post-university travels",
-          "image": "06.jpg",
-          "url": "https://www.canadianwanderlust.com"
-        },
-        {
-          "title": "Fury Fighting Gear",
-          "category": "(offline now) A fighting gear company I started",
-          "image": "01.jpg",
-          "url": "http://www.timbakerdev.com"
-        },
-        {
-          "title": "Original Thai Food",
-          "category": "Website I built for a restaurant I like in Thailand",
-          "image": "02.jpg",
-          "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-        },
-        {
-          "title": "Original Thai Food",
-          "category": "Website I built for a restaurant I like in Thailand",
-          "image": "03.jpg",
-          "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-        },
-        {
-          "title": "Resume Website",
-          "category": "A React based resume website template",
-          "image": "04.jpg",
-          "url": "http://www.timbakerdev.com"
-        },
-        {
-          "title": "Smirkspace",
-          "category": "(MVP Only) A React and Meteor based chat University project.",
-          "image": "05.jpg",
-          "url": "http://www.smirkspace.com"
-        },
-        {
-          "title": "Canadian Wanderlust",
-          "category": "My Travel Blog for my post-university travels",
-          "image": "06.jpg",
-          "url": "https://www.canadianwanderlust.com"
+          "title": "Sample Project 05",
+          "description": "My Travel Blog for my post-university travels",
+          "image": "5",
+          "url": "https://www.github.com/pie1011"
         }
       ]
     }

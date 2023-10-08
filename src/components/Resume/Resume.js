@@ -23,41 +23,41 @@ const Resume = (props) => {
             <div key={training.site}>
                 <h4 className="portfolio-resume-site">{training.site}</h4>
                 <hr className="portfolio-resume-hr" />
-                <p className="info pb-4">
+                <div className="info pb-4">
                     {training.data.map(item => {
                         return (
-                            <div className="d-flex flex-column flex-lg-row ps-3">
-                                <h5 key={item.name}><span className="bull d-none d-lg-inline">&bull;</span> {item.name} </h5>
-                                <em key={item.certificate} className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em>
+                            <div key={item.name} className="d-flex flex-column flex-lg-row ps-3">
+                                <h5><span className="bull d-none d-lg-inline">&bull;</span> {item.name} </h5>
+                                <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em>
                             </div>
                         )
                     })}
-                </p>
+                </div>
             </div>
         );
     });
 
     const displayWork = props.data.work.map(function (work) {
         return (
-            <div key={work.company}>
+            <div key={work.title}>
                 <h4 className="portfolio-resume-site">{work.company}</h4>
                 <hr className="portfolio-resume-hr" />
-                <p className="info pb-4">
+                <div key={work.years} className="info pb-4">
                     <div className="d-flex flex-column ps-3">
-                        <h5 key={work.title}>{work.title}
-                            <span className="bull d-none d-lg-inline">&bull;</span> <em key={work.years} className="small">{work.years} </em>
+                        <h5>{work.title}
+                            <span className="bull d-none d-lg-inline">&bull;</span> <em className="small">{work.years} </em>
                         </h5>
                         <ul className="ps-5">
-                            {work.description.map(item => {
+                            {work.description.map((item, index) => {
                                 return (
-                                    <li key={item}>
+                                    <li id={`description-${index}-${item}`} key={`description-${index}-${item}`}>
                                         {item}
                                     </li>
                                 )
                             })}
                         </ul>
                     </div>
-                </p>
+                </div>
             </div>
         );
     });
@@ -76,16 +76,6 @@ const Resume = (props) => {
                         </div>
                         <div className="p-1 p-lg-5">
                             {displayTraining}
-                        </div>
-                    </Container>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <Container className="portfolio-resume-container d-flex flex-column flex-lg-row">
-                        <div className="portfolio-resume-heading p-1 p-lg-5 text-end">
-                            <h2 className="display-1 name-header">Work</h2>
-                        </div>
-                        <div className="p-1 p-lg-5">
-                            {displayWork}
                         </div>
                     </Container>
                 </Carousel.Item>

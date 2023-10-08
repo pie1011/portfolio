@@ -8,11 +8,10 @@ const Cover = (props) => {
 
     if (!props.data) return null;
 
-    const project = props.data.project;
+    const projects = props.data.projects;
     const github = props.data.github;
     const name = props.data.name;
     const description = props.data.description;
-    console.log("Description: " + description);
 
     return (
         <Container id="Home" className="d-flex min-vh-100 w-100 p-3 mt-auto mx-auto flex-column ">
@@ -24,7 +23,7 @@ const Cover = (props) => {
                     {description}
                 </p>
                 <div className="d-flex flex-column flex-lg-row justify-content-center">
-                    <Button className="btn portfolio-button m-3 px-3" size="lg" href={project}>
+                    <Button className="btn portfolio-button m-3 px-3" size="lg" href={projects}>
                         <i className="bi bi-journals"></i> Projects
                     </Button>
                     <Button className="btn portfolio-button secondary m-3 px-3" size="lg" href={github}>

@@ -7,6 +7,7 @@ import Navigation from '../Navigation/Navigation';
 import Cover from '../Cover/Cover';
 import About from '../About/About';
 import Resume from '../Resume/Resume';
+import Projects from '../Projects/Projects';
 import Foot from '../Foot/Foot';
 
 class App extends React.Component {
@@ -23,6 +24,7 @@ class App extends React.Component {
         <Cover data={resumeDetails.main} />
         <About data={resumeDetails.main} />
         <Resume data={resumeDetails.resume} />
+        <Projects data={resumeDetails.portfolio} />
         <Foot />
       </Container>
     );

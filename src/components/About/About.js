@@ -17,10 +17,10 @@ const About = (props) => {
 
     return (
         <Container id="About" className="portfolio-about d-flex flex-column min-vw-100 min-vh-100">
-            <Container className="portfolio-about-container d-flex flex-row">
+            <Container className="portfolio-about-container d-flex flex-column flex-lg-row">
 
                 <div className="p-1 p-lg-5 text-center">
-                    <Image className="portfolio-about-image img-thumbnail shadow-md w-75 w-lg-50" roundedCircle src={KatieProfile} alt="Katie Harshman" />
+                    <Image className="portfolio-about-image img-thumbnail shadow-md" roundedCircle src={KatieProfile} alt="Katie Harshman" />
                     <p className="lead pt-5 pb-0">Katie Harshman</p>
                     <p className="lead pt-0">Campbell, California</p>
                 </div>
@@ -30,7 +30,6 @@ const About = (props) => {
                     <p className="lead">{bio1}</p>
                     <p>{bio2}</p>
                     <p>{bio3}</p>
-
                     <p className="lead">
                         <Button className="btn portfolio-button" size="lg">
                             Learn more

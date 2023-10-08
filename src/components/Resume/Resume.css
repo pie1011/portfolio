@@ -8,9 +8,6 @@
 .portfolio-resume-container {
   margin-top: 75px;
 }
-.portfolio-resume-heading {
-  max-width: 350px;
-}
 
 .portfolio-resume-site {
   color: var(--color-accent);

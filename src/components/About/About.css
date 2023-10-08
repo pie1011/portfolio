@@ -15,3 +15,16 @@
   max-width: 250px;
   max-height: 250px;
 }
+
+.portfolio-about-skills {
+  color: var(--color-accent);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+hr {
+  color: var(--color-accent);
+}

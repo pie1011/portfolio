@@ -12,7 +12,7 @@ const Resume = (props) => {
     const displayTraining = props.data.training.map(function (training) {
         return (
             <div key={training.site}>
-                <h4 className="portfolio-resume-site">{training.site}</h4>
+                <h4 className="portfolio-resume-site small-caps">{training.site}</h4>
                 <hr className="portfolio-resume-hr" />
                 <div className="info pb-4">
                     {training.data.map(item => {
@@ -31,11 +31,11 @@ const Resume = (props) => {
     const displayWork = props.data.work.map(function (work) {
         return (
             <div key={work.title}>
-                <h4 className="portfolio-resume-site">{work.company}</h4>
+                <h4 className="portfolio-resume-site small-caps">{work.company}</h4>
                 <hr className="portfolio-resume-hr" />
                 <div key={work.years} className="info pb-4">
                     <div className="d-flex flex-column ps-3">
-                        <h5>{work.title}
+                        <h5 >{work.title}
                             <span className="bull d-none d-lg-inline">&bull;</span> <em className="small">{work.years} </em>
                         </h5>
                         <ul className="ps-5">

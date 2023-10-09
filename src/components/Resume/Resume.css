@@ -13,9 +13,9 @@
   color: var(--color-accent);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  font-variant: small-caps;
 }
 
 .portfolio-resume-hr {
@@ -37,6 +37,9 @@ span.bull {
 
 ul li::before {
   color: var(--color-accent);
+}
+h4.small-caps {
+  font-variant: small-caps;
 }
 
 @media screen and (max-width: 1400px) {

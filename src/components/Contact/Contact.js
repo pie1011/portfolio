@@ -14,7 +14,7 @@ const encode = (data) => {
 class Contact extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { name: "", email: "", subject: "", message: "" };
+        this.state = { name: "", email: "", subject: "", message: "", success: "" };
     }
 
     handleSubmit = e => {
@@ -23,8 +23,7 @@ class Contact extends React.Component {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...this.state })
         })
-            .then(() => this.setState({ name: "", email: "", subject: "", message: "" }))
-            .then(() => alert("Thank you for your message!"))
+            .then(() => this.setState({ name: "", email: "", subject: "", message: "", success: "Thank you for your message!" }))
             .catch(error => alert(error));
 
         e.preventDefault();
@@ -68,6 +67,7 @@ class Contact extends React.Component {
                                 <Button className="portfolio-button mt-5" type="submit"><i className="bi bi-send-fill"></i> Send</Button>
                             </Form.Group>
                         </Form>
+                        {this.state.success && <p className="text-success-emphasis">{this.state.success}</p>}
                     </Container>
 
                 </Container>

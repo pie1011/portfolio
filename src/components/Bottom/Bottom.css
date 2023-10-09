@@ -1,6 +1,22 @@
-.portfolio-foot {
-    background: transparent;
+
+.portfolio-bottom {
+    width: 50px;
 }
-.bottom-container {
-    min-width: 97vw;
-}
+.up-arrow {
+    font-size: 3rem;
+    color: #a2a2a2; 
+    cursor: pointer;
+  }
+  .up-arrow:hover {
+    color: #ffd1bf;
+  }
+
+  @media screen and (max-width: 768px) {
+    .portfolio-bottom {
+      background: red;
+      width: 20px;
+    }
+    .up-arrow {
+        font-size: 1rem;
+      }
+  }

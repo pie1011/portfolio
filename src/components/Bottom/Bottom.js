@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./Bottom.css";
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
 
 const Bottom = () => {
 
@@ -21,19 +20,17 @@ const Bottom = () => {
 
     return (
         <>
-                    <Container fluid className="portfolio-foot mx-auto pt-5 text-white-50 text-center">
+            <Container fluid className="mx-auto pt-5 text-white-50 text-center">
                 <p>
-                    Made with ♥️ by Katie
+                    &copy; 2025 and made with ♥️ by me.
                 </p>
             </Container>
             {scrollPosition > 800 && (
-                <Navbar className="sticky-bottom ms-auto me-0" sticky="bottom">
-                    <Container className="bottom-container">
-                        <a href="#Home" className="up-arrow">
-                            <i className="bi bi-arrow-up-circle-fill"></i>
-                        </a>
-                    </Container>
-                </Navbar>
+                <Container className="sticky-bottom portfolio-bottom ms-auto me-1 me-lg-5 p-0" sticky="bottom">
+                    <a href="#Home" className="up-arrow">
+                        <i className="bi bi-arrow-up-circle-fill"></i>
+                    </a>
+                </Container>
             )}
 
         </>

@@ -23,13 +23,14 @@ class Contact extends React.Component {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...this.state })
         })
-            .then(() => alert("Thank you!"))
+            .then(() => alert("Thank you for your message!"))
             .catch(error => alert(error));
 
         e.preventDefault();
     };
 
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
 
     render() {
 

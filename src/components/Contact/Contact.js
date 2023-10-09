@@ -1,6 +1,4 @@
 import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
 
 import "./Contact.css";
 import Container from 'react-bootstrap/Container';
@@ -10,14 +8,6 @@ import Button from 'react-bootstrap/Button';
 
 
 const Contact = (props) => {
-
-    const [success, setSuccess] = useState(false);
-
-    useEffect(() => {
-        if (window.location.search.includes('success=true')) {
-            setSuccess(true);
-        }
-    }, []);
 
     return (
         <Container id="Contact" className="portfolio-contact d-flex flex-column min-vw-100 min-vh-100">
@@ -32,7 +22,6 @@ const Contact = (props) => {
                         name="contactForm"
                         method="POST"
                         data-netlify="true"
-                        action="?success=true"
                     >
                         <input type="hidden" name="contactForm" value="contactForm"></input>
                         <Form.Group className="mb-3" controlId="contactForm.Name" data-bs-theme="dark">
@@ -54,9 +43,7 @@ const Contact = (props) => {
                             <Button className="portfolio-button mt-5" type="submit"><i className="bi bi-send-fill"></i> Send</Button>
                         </Form.Group>
                     </Form>
-                    {success && (
-                        <p style={{ color: "green" }}>Thanks for your message! </p>
-                    )}
+
                 </Container>
 
             </Container>

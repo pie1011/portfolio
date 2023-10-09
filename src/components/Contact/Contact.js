@@ -31,7 +31,6 @@ class Contact extends React.Component {
 
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
-
     render() {
 
         const { name, email, subject, message } = this.state;

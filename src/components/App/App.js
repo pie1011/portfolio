@@ -9,7 +9,7 @@ import About from '../About/About';
 import Resume from '../Resume/Resume';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
-import Foot from '../Foot/Foot';
+import Bottom from '../Bottom/Bottom';
 
 class App extends React.Component {
   constructor(props) {
@@ -23,11 +23,11 @@ class App extends React.Component {
       <Container id="App" className="container-fluid min-vw-100 p-0">
         <Navigation />
         <Cover data={resumeDetails.main} />
-        <About data={resumeDetails.main} />
-        <Resume data={resumeDetails.resume} />
-        <Projects data={resumeDetails.portfolio} />
-        <Contact />
-        <Foot />
+          <About data={resumeDetails.main} />
+          <Resume data={resumeDetails.resume} />
+          <Projects data={resumeDetails.portfolio} />
+          <Contact />
+          <Bottom />
       </Container>
     );
   }

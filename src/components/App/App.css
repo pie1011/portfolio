@@ -117,11 +117,18 @@ html, body {
   color: #00ffe1; 
   cursor: pointer;
 }
-
 .down-arrow:hover {
   color: #ffd1bf;
 }
-
+.up-arrow {
+  margin-left: 95%;
+  font-size: 3rem;
+  color: #a2a2a2; 
+  cursor: pointer;
+}
+.up-arrow:hover {
+  color: #ffd1bf;
+}
 .portfolio-button-link {
   color: var(--color-bright);
   border: none;

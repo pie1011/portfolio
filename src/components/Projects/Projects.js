@@ -34,7 +34,7 @@ const Projects = (props) => {
     });
 
     return (
-        <Container id="Projects" className="portfolio-about d-flex flex-column min-vw-100 min-vh-100">
+        <Container id="Projects" className="portfolio-projects d-flex flex-column min-vw-100 min-vh-100">
             <Container className="portfolio-projects-container d-flex flex-row flex-wrap justify-content-around mb-3 p-3">
                 {displayProjects}
             </Container>

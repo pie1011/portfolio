@@ -27,7 +27,6 @@ const Contact = (props) => {
                         name="contactForm"
                         method="POST"
                         data-netlify="true"
-                        action={handleShow}
                     >
                         <input type="hidden" name="contactForm" value="contactForm"></input>
                         <Form.Group className="mb-3" controlId="contactForm.Name" data-bs-theme="dark">

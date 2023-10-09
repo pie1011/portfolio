@@ -6,7 +6,6 @@ import Card from 'react-bootstrap/Card';
 
 const images = require.context('../../images', true);
 const imageList = images.keys().map((image, index) => images(image));
-console.log(imageList)
 
 const Projects = (props) => {
 

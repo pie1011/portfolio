@@ -49,7 +49,6 @@ const Contact = (props) => {
                             <Button className="portfolio-button mt-5" type="submit" onClick={handleShow}><i className="bi bi-send-fill"></i> Send</Button>
                         </Form.Group>
                     </Form>
-
                 </Container>
 
             </Container>
@@ -59,19 +58,17 @@ const Contact = (props) => {
                 </a>
             </Container>
 
-            <Modal show={show} onHide={handleClose} data-bs-theme="dark">
-                <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Close
-                    </Button>
-                    <Button variant="primary" onClick={handleClose}>
-                        Save Changes
-                    </Button>
-                </Modal.Footer>
+            <Modal 
+                show={show} 
+                onHide={handleClose} 
+                className="portfolio-contact-modal" 
+                aria-labelledby="contained-modal-title-vcenter"
+                data-bs-theme="dark"
+                centered>
+                <Modal.Header className="border-0 mb- pb-0" closeButton></Modal.Header>
+                <Modal.Body className="text-center">
+                    <h4 className="mx-auto mt-0 my-1 mb-md-3 pt-0">Thanks for the message!</h4>
+                </Modal.Body>
             </Modal>
 
         </Container>

@@ -26,7 +26,7 @@ const Cover = (props) => {
                     <Button className="btn portfolio-button m-3 px-3" size="lg" href={projects}>
                         <i className="bi bi-journals"></i> Projects
                     </Button>
-                    <Button className="btn portfolio-button secondary m-3 px-3" size="lg" href={github}>
+                    <Button className="btn portfolio-button secondary m-3 px-3" size="lg" href={github} target="_blank" >
                         <i className="bi bi-github"></i> GitHub
                     </Button>
                 </div>

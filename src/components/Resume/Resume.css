@@ -38,3 +38,20 @@ span.bull {
 ul li::before {
   color: var(--color-accent);
 }
+
+@media screen and (max-width: 1400px) {
+  h5 {
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h5 {
+    font-size: 1rem;
+    margin-bottom: 2px;
+  }
+  em {
+    font-size: 0.8rem;
+  }
+  
+}

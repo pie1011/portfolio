@@ -1,5 +1,4 @@
 import React from "react";
-// import { useState } from "react";
 import "./Resume.css";
 
 import Container from 'react-bootstrap/Container';
@@ -7,7 +6,6 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 const Resume = (props) => {
-
 
     if (!props.data) return null;
 
@@ -65,7 +63,7 @@ const Resume = (props) => {
                         A sampling of certifcations I have completed.
                     </p>
                 </Col>
-                <Col className="mt-4 p-1 p-lg-5 ps-lg-4">
+                <Col className="mt-4 p-1 p-xxlg-5 ps-lg-4">
                     {displayTraining}
                 </Col>
             </Row>
@@ -73,7 +71,7 @@ const Resume = (props) => {
                 <Col className="portfolio-resume-container col-md-4 me-1 me-md-5 text-center text-md-end">
                     <h2 className="display-1 name-header">Work</h2>
                 </Col>
-                <Col className="mt-4 p-1 p-lg-5 ps-lg-4">
+                <Col className="mt-4 p-1 p-xxlg-5 ps-lg-4">
                     {displayWork}
                 </Col>
             </Row>

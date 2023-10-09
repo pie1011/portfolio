@@ -23,7 +23,7 @@ class Contact extends React.Component {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...this.state })
         })
-            .then(() => alert("Success!"))
+            .then(() => alert("Thank you!"))
             .catch(error => alert(error));
 
         e.preventDefault();
@@ -39,8 +39,9 @@ class Contact extends React.Component {
             <Container id="Contact" className="portfolio-contact d-flex flex-column min-vw-100 min-vh-100">
                 <Container className="portfolio-contact-container d-flex flex-column flex-lg-row">
 
-                    <div className="p-1 p-lg-5 text-center">
+                    <div className="w-100 w-lg-25 p-1 p-lg-5 text-center">
                         <h2 className="display-1 name-header mb-3">Contact</h2>
+                        <p className="lead text-center text-lg-end">I am currently looking for new opportunities. If you have any questions or would like to get in touch, please fill out this form.</p>
                     </div>
 
                     <Container fluid className="p-1 p-lg-5">

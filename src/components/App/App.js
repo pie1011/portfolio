@@ -23,11 +23,11 @@ class App extends React.Component {
       <Container id="App" className="container-fluid min-vw-100 p-0">
         <Navigation />
         <Cover data={resumeDetails.main} />
-          <About data={resumeDetails.main} />
-          <Resume data={resumeDetails.resume} />
-          <Projects data={resumeDetails.portfolio} />
-          <Contact />
-          <Bottom />
+        <About data={resumeDetails.main} />
+        <Resume data={resumeDetails.resume} />
+        <Projects data={resumeDetails.portfolio} />
+        <Contact />
+        <Bottom />
       </Container>
     );
   }

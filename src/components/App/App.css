@@ -20,8 +20,7 @@
 body {
   font-family: "Poppins", sans-serif;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  background-image: radial-gradient(circle, #1e252f, #14191f, rgb(10, 12, 15));
-  /* #28303b,  */
+  background-color: var(--color-dark);
 }
 
 html, body {
@@ -29,10 +28,9 @@ html, body {
   width: 100%;
 }
 
-.cover-container {
-  max-width: 42em;
+hr {
+  color: var(--color-accent);
 }
-
 
 /*
  * Header

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,400&family=Shadows+Into+Light&display=swap');
 
 .portfolio-projects {
-  background-image: radial-gradient(circle, #1e252f, #14191f, rgb(10, 12, 15));
+  background-color: var(--color-dark);
+  background:linear-gradient(var(--color-darker), var(--color-dark));
 }
 .portfolio-projects-container {
   margin-top: 75px;

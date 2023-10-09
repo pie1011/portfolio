@@ -14,7 +14,7 @@ const Cover = (props) => {
     const description = props.data.description;
 
     return (
-        <Container id="Home" className="d-flex min-vh-100 w-100 p-3 mt-auto mx-auto flex-column ">
+        <Container id="Home" className="portfolio-cover d-flex min-vh-100 min-vw-100 p-3 mt-auto mx-auto flex-column ">
 
             <Container className="cover-container align-self-center my-auto px-3 text-center">
                 <h1 className="name-header">{name}</h1>

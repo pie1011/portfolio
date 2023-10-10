@@ -20,12 +20,12 @@ const Projects = (props) => {
                     </Card.Title>
                     <Card.Img className="portfolio-projects-image img-thumbnail mx-auto ratio-1x1 object-fit-cover" src={imageList[projects.image]} alt={projects.title} />
                     <Card.Body>
+                        <Card.Text className="text-center">
+                            <a className="portfolio-button-link mx-1" href={projects.url} target="blank"><i className="bi bi-binoculars-fill"></i></a>
+                            <a className="portfolio-button-link mx-1" href={projects.github} target="blank"><i className="bi bi-github"></i></a>
+                        </Card.Text>
                         <Card.Text>
                             {projects.description}
-                        </Card.Text>
-                        <Card.Text className="text-center">
-                            <a className="portfolio-button-link mx-1" href={projects.url}><i className="bi bi-binoculars-fill"></i></a>
-                            <a className="portfolio-button-link mx-1" href={projects.url}><i className="bi bi-github"></i></a>
                         </Card.Text>
                     </Card.Body>
                 </Card>

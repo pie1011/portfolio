@@ -248,37 +248,43 @@ export const resumeDetails = {
         "title": "Sample Project 00",
         "description": "My Travel Blog for my post-university travels",
         "image": "0",
-        "url": "https://www.github.com/pie1011"
+        "url": "https://www.github.com/pie1011",
+        "github": "https://www.github.com/pie1011"
       },
       {
-        "title": "Sample Project 01",
-        "description": "My Travel Blog for my post-university travels",
+        "title": "Simple Chat",
+        "description": "Simple multi-room chat in JavaScript with a server using socket.io.",
         "image": "1",
-        "url": "https://www.github.com/pie1011"
+        "url": "https://chatrooms.onrender.com",
+        "github": "https://github.com/pie1011/chat"
       },
       {
         "title": "Sample Project 02",
         "description": "My Travel Blog for my post-university travels",
         "image": "2",
-        "url": "https://www.github.com/pie1011"
+        "url": "https://www.github.com/pie1011",
+        "github": "https://www.github.com/pie1011"
       },
       {
         "title": "Sample Project 03",
         "description": "My Travel Blog for my post-university travels",
         "image": "3",
-        "url": "https://www.github.com/pie1011"
+        "url": "https://www.github.com/pie1011",
+        "github": "https://www.github.com/pie1011"
       },
       {
         "title": "Sample Project 04",
         "description": "My Travel Blog for my post-university travels",
         "image": "4",
-        "url": "https://www.github.com/pie1011"
+        "url": "https://www.github.com/pie1011",
+        "github": "https://www.github.com/pie1011"
       },
       {
         "title": "Sample Project 05",
         "description": "My Travel Blog for my post-university travels",
         "image": "5",
-        "url": "https://www.github.com/pie1011"
+        "url": "https://www.github.com/pie1011",
+        "github": "https://www.github.com/pie1011"
       }
     ]
   }

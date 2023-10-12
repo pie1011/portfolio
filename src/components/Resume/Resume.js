@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./Resume.css";
+import CalbrightImage from "./CalbrightImage.png";
 
 import Container from 'react-bootstrap/Container';
 import Collapse from 'react-bootstrap/Collapse';
@@ -14,16 +15,25 @@ const Resume = (props) => {
 
     if (!props.data) return null;
 
+
+
     const displayTraining = props.data.training.map(function (training) {
+        const displayTrainingImage = (training.trainingImage) ? (
+            <a href={training.trainingImage} target="_blank" rel="noreferrer">
+                <img className="portfolio-resume-image" src={CalbrightImage} alt="Training" />
+            </a>
+        ) : null;
         return (
             <div key={training.site}>
-                <h4 className="portfolio-resume-site small-caps ps-3 ps-xxlg-0">{training.site}</h4>
+                <h4 className="portfolio-resume-site small-caps ps-3 ps-xxlg-0"> {displayTrainingImage}  {training.site}</h4>
                 <hr className="portfolio-resume-hr" />
                 <div className="info pb-4">
                     {training.data.map(item => {
                         return (
                             <div key={item.name} className="d-flex flex-column flex-lg-row ps-3">
-                                <h5><span className="bull d-none d-lg-inline">&bull;</span> {item.name} </h5>
+                                <h5>
+                                    <span className="bull d-none d-lg-inline">&bull;</span> {item.name}
+                                </h5>
                                 <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em>
                             </div>
                         )
@@ -98,7 +108,7 @@ const Resume = (props) => {
                 <Col className="portfolio-resume-container col-md-4 me-1 me-md-5 text-center text-md-end">
                     <h2 className="display-1 name-header">Training</h2>
                     <p className="lead">
-                        A sampling of certifcations I have completed.
+                        A sampling of certifcations completed or in progress.
                     </p>
                 </Col>
                 <Col className="mt-5 p-1 p-xxlg-5 ps-lg-4">

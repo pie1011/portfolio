@@ -149,6 +149,17 @@ export const resumeDetails = {
             "date": "In Progress"
           }
         ]
+      },
+      {
+        "site": "calbright college",
+        "trainingImage": "https://www.calbright.org/programs/crm/",
+        "data": [
+          {
+            "name": "Salesforce CRM Administrator",
+            "certificate": "Certificate in progress",
+            "date": "In Progress"
+          }
+        ]
       }
     ],
 

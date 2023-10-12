@@ -12,7 +12,7 @@ const Resume = (props) => {
     const displayTraining = props.data.training.map(function (training) {
         return (
             <div key={training.site}>
-                <h4 className="portfolio-resume-site small-caps">{training.site}</h4>
+                <h4 className="portfolio-resume-site small-caps ps-3 ps-xxlg-0">{training.site}</h4>
                 <hr className="portfolio-resume-hr" />
                 <div className="info pb-4">
                     {training.data.map(item => {
@@ -31,17 +31,17 @@ const Resume = (props) => {
     const displayWork = props.data.work.map(function (work) {
         return (
             <div key={work.title}>
-                <h4 className="portfolio-resume-site small-caps">{work.company}</h4>
+                <h4 className="portfolio-resume-site small-caps ps-3 ps-xxlg-0">{work.company}</h4>
                 <hr className="portfolio-resume-hr" />
                 <div key={work.years} className="info pb-4">
                     <div className="d-flex flex-column ps-3">
                         <h5 >{work.title}
                             <span className="bull d-none d-lg-inline">&bull;</span> <em className="small">{work.years} </em>
                         </h5>
-                        <ul className="ps-5">
+                        <ul className="ps-4 ps-xxlg-5 ">
                             {work.description.map((item, index) => {
                                 return (
-                                    <li id={`description-${index}-${item}`} key={`description-${index}-${item}`}>
+                                    <li className="py-1 py-xxlg-3" id={`description-${index}-${item}`} key={`description-${index}-${item}`}>
                                         {item}
                                     </li>
                                 )
@@ -55,7 +55,7 @@ const Resume = (props) => {
 
 
     return (
-        <Container id="Resume" className="portfolio-resume d-flex flex-column min-vw-100 min-vh-100">
+        <Container id="Resume" className="portfolio-resume d-flex flex-column min-vw-100 min-vh-100 pt-5">
             <Row className="row-cols-1 row-cols-md-2">
                 <Col className="portfolio-resume-container col-md-4 me-1 me-md-5 text-center text-md-end">
                     <h2 className="display-1 name-header">Training</h2>
@@ -63,15 +63,15 @@ const Resume = (props) => {
                         A sampling of certifcations I have completed.
                     </p>
                 </Col>
-                <Col className="mt-4 p-1 p-xxlg-5 ps-lg-4">
+                <Col className="mt-5 p-1 p-xxlg-5 ps-lg-4">
                     {displayTraining}
                 </Col>
             </Row>
-            <Row className="row-cols-1 row-cols-md-2">
+            <Row className="row-cols-1 row-cols-md-2 overflow-y-auto">
                 <Col className="portfolio-resume-container col-md-4 me-1 me-md-5 text-center text-md-end">
                     <h2 className="display-1 name-header">Work</h2>
                 </Col>
-                <Col className="mt-4 p-1 p-xxlg-5 ps-lg-4">
+                <Col className="mt-5 p-1 p-xxlg-5 ps-lg-4">
                     {displayWork}
                 </Col>
             </Row>

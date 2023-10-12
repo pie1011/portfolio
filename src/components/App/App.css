@@ -10,6 +10,8 @@
   --color-lighter: #f7ffff;
   --color-lightest: #ffffff;
   --color-accent: #ffd1bf;
+
+  --bs-navbar-toggler-border-color: #00ffe1;
 }
 
 
@@ -32,6 +34,14 @@ hr {
   color: var(--color-accent);
 }
 
+.portfolio-secret {
+  color: var(--color-bright);
+  text-shadow: 0px 1px 1px #00ffe1;
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  overflow: hidden;
+}
 /*
  * Header
  */

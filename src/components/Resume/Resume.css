@@ -4,10 +4,13 @@
   background:linear-gradient(rgba(10, 12, 15, 0), var(--color-darker));
   background-color: var(--color-dark);
 
+  max-height: 100vh;
+
 }
 .portfolio-resume-container {
   margin-top: 75px;
 }
+
 
 .portfolio-resume-site {
   color: var(--color-accent);
@@ -35,9 +38,10 @@ span.bull {
   font-weight: 600;
 }
 
-ul li::before {
+ul li::marker {
   color: var(--color-accent);
 }
+
 h4.small-caps {
   font-variant: small-caps;
 }

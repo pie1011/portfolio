@@ -4,8 +4,6 @@
   background:linear-gradient(rgba(10, 12, 15, 0), var(--color-darker));
   background-color: var(--color-dark);
 
-  max-height: 100vh;
-
 }
 .portfolio-resume-container {
   margin-top: 75px;

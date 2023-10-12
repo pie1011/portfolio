@@ -161,6 +161,14 @@ hr {
   color: #000;
   background-color: #ffd1bf;
 }
+.portfolio-button.link {
+  color: #00ffe1;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
 
 @media screen and (max-width: 768px) {
   .name-header {

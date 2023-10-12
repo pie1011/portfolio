@@ -1,11 +1,16 @@
 import React from "react";
+import { useState } from "react";
 import "./Resume.css";
 
 import Container from 'react-bootstrap/Container';
+import Collapse from 'react-bootstrap/Collapse';
+import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 const Resume = (props) => {
+
+    const [open, setOpen] = useState(false);
 
     if (!props.data) return null;
 
@@ -53,6 +58,39 @@ const Resume = (props) => {
         );
     });
 
+    const swapDisplayMore = () => {
+        let workMoreButtonShow = document.getElementById("workMore-collapse-button");
+        workMoreButtonShow.toggleAttribute("hidden");
+        let workMoreButtonHide = document.getElementById("workMore-collapse-button-hide");
+        workMoreButtonHide.toggleAttribute("hidden");
+        setOpen(!open)
+    }
+
+    const displayWorkMore = props.data.workMore.map(function (work) {
+        return (
+            <div key={work.title}>
+                <h4 className="portfolio-resume-site small-caps ps-3 ps-xxlg-0">{work.company}</h4>
+                <hr className="portfolio-resume-hr" />
+                <div key={work.years} className="info pb-4">
+                    <div className="d-flex flex-column ps-3">
+                        <h5 >{work.title}
+                            <span className="bull d-none d-lg-inline">&bull;</span> <em className="small">{work.years} </em>
+                        </h5>
+                        <ul className="ps-4 ps-xxlg-5 ">
+                            {work.description.map((item, index) => {
+                                return (
+                                    <li className="py-1 py-xxlg-3" id={`description-${index}-${item}`} key={`description-${index}-${item}`}>
+                                        {item}
+                                    </li>
+                                )
+                            })}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        );
+    });
+
 
     return (
         <Container id="Resume" className="portfolio-resume d-flex flex-column min-vw-100 min-vh-100 pt-5">
@@ -73,6 +111,36 @@ const Resume = (props) => {
                 </Col>
                 <Col className="mt-5 p-1 p-xxlg-5 ps-lg-4">
                     {displayWork}
+
+
+                    
+                    <Collapse in={open}>
+                        <div id="workMore-collapse-text">
+                            {displayWorkMore}
+                        </div>
+                    </Collapse>
+                    <Button
+                        id="workMore-collapse-button"
+                        className="btn portfolio-button secondary mx-3 mt-0 mb-5 px-3"
+                        size="lg"
+                        onClick={() => swapDisplayMore()}
+                        aria-controls="workMore-collapse-text"
+                        aria-expanded={open}
+                    >
+                        <i class="bi bi-caret-down-fill"></i> show more
+                    </Button>
+                    <Button
+                        id="workMore-collapse-button-hide"
+                        className="btn portfolio-button secondary mx-3 mt-0 mb-5 px-3"
+                        size="lg"
+                        onClick={() => swapDisplayMore()}
+                        aria-controls="workMore-collapse-text"
+                        aria-expanded={open}
+                        hidden
+                    >
+                        <i class="bi bi-caret-up-fill"></i> show less
+                    </Button>
+ 
                 </Col>
             </Row>
             <Container fluid className="portfolio-down mt-auto pb-5 mx-auto text-white-50 text-center">

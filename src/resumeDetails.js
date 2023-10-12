@@ -175,7 +175,9 @@ export const resumeDetails = {
           "Engage in team-building activities and company-wide events, mentor otherdevelopers.",
           "Attend training sessions and complete coursework to develop technical skills and knowledge of IBM products and services."
         ]
-      },
+      }
+    ],
+    "workMore": [
       {
         "company": "Pro Appliance Installation",
         "title": "Web Development + Support ",

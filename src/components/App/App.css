@@ -34,6 +34,11 @@ hr {
   color: var(--color-accent);
 }
 
+a {
+  color: var(--color-bright);
+  text-decoration: none;
+}
+
 .portfolio-secret {
   color: var(--color-bright);
   text-shadow: 0px 1px 1px #00ffe1;

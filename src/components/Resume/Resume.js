@@ -122,7 +122,6 @@ const Resume = (props) => {
                 <Col className="mt-5 p-1 p-xxlg-5 ps-lg-4">
                     {displayWork}
 
-
                     
                     <Collapse in={open}>
                         <div id="workMore-collapse-text">
@@ -137,7 +136,7 @@ const Resume = (props) => {
                         aria-controls="workMore-collapse-text"
                         aria-expanded={open}
                     >
-                        <i class="bi bi-caret-down-fill"></i> show more
+                        <i className="bi bi-caret-down-fill"></i> show more
                     </Button>
                     <Button
                         id="workMore-collapse-button-hide"
@@ -148,7 +147,7 @@ const Resume = (props) => {
                         aria-expanded={open}
                         hidden
                     >
-                        <i class="bi bi-caret-up-fill"></i> show less
+                        <i className="bi bi-caret-up-fill"></i> show less
                     </Button>
  
                 </Col>

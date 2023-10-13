@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 
 const Bottom = () => {
 
+    let currentYear = new Date().getFullYear()
+
     const [scrollPosition, setScrollPosition] = useState(0);
     const handleScroll = () => {
         const position = window.pageYOffset;
@@ -25,7 +27,7 @@ const Bottom = () => {
                 ╲╱│╱│╱╱╱╲│╱│╱╲╱╳╲╲╱│╲╲╲│╲╱│╲╱│╱╲╳╲╲╱│╱╱│╱╱╱╲│╱╳╲╱╲╲│╲╲╲│╱╱╲╳╱╱╲│╱╲╲╱╳╲╱│╱│╱╱╱╲│╱│╱╲╱╳╲╲╱│╲╲╲│╲╱│╲╱│╱╲╳╱╲╱╱│╱│╲╳╲╱╲╲│╲╲╲│╱╱╲╳╲╱╱│╲╲╲│╱╲╲│╲╱╳╲╱│╱│╱╱╱╲│╱│╱╲╱╳╲╲╱│╲╲╲│╲╱│╲╱│╱╲╳╱╲╱│╱╱╲│╲╱╳╱╲│╱╲╱│╲╲╲│╱╱╲│╲╱│╲╱╱╳╱╲│╲╱│╲╱╱╳╲╱╱│╱│╱╱╱│╱│╱╲╱│╲╳╲╱╲╲│╲╲╲│╱╱╲╳╲╱│╱│╱╱╱╲│╱│╱╲╱╳╲╲╱│╲╲╲│╲╱│╲╱│╱╲╳╲╲│╱╲│╲╱╲│╱╳╲╱╲╲│╲╲╲│╱╱╲╳╲╱╲╱│╱╲╱│╲╱╲╲╳╲╱│╱│╱╱╱╲│╱│╱╲╱╳╲╲╱│╲╲╲│╲╱│╲╱│╱╲╳╱╱╱│╱╲│╲╱╲╲╳╲╲╱│╲╲╲│╲╲╲│╲╱╱│╲╱╱╱│╲╱╲╲│╱╳╲╱│╱│╱╱╱╲│╱│╱╲╱╳╲╲╱│╲╲╲│╲╱│╲╱│╱╲╳╲│╱│╱╲╱╱│╱╲╱╱╳╱╲╳╱╲╱╱│╱╱│╱╳╱╲│╲╱│╲╱╱╳╱╱╱╱│╱╱╲│╱╲╱│╲╳╲╱╲╲│╲╲╲│╱╱╲╳
                 </p>
                 <p>
-                    &copy; 2025 and made with ♥️ by me.
+                    &copy; {currentYear} and made with ♥️ by me.
                 </p>
             </Container>
             {scrollPosition > 800 && (

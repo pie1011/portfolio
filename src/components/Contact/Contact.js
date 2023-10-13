@@ -46,7 +46,7 @@ class Contact extends React.Component {
                     </div>
 
                     <Container fluid className="p-1 p-lg-5">
-                        <Form onSubmit={this.handleSubmit}>
+                        <Form onSubmit={this.handleSubmit} autocomplete="on">
                             <input type="hidden" name="contactForm" value="contactForm"></input>
                             <Form.Group className="mb-3" controlId="contactForm.Name" data-bs-theme="dark">
                                 <Form.Label>Name</Form.Label>

@@ -20,7 +20,7 @@ const Resume = (props) => {
     const displayTraining = props.data.training.map(function (training) {
         const displayTrainingImage = (training.trainingImage) ? (
             <a href={training.trainingImage} target="_blank" rel="noreferrer">
-                <img className="portfolio-resume-image" src={CalbrightImage} alt="Training" />
+                <img className="portfolio-resume-image" src={CalbrightImage} width="137" height="45" alt="Training" />
             </a>
         ) : null;
         return (

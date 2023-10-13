@@ -24,7 +24,7 @@ const About = (props) => {
             <Container className="portfolio-about-container d-flex flex-column flex-lg-row">
 
                 <div className="p-1 p-lg-5 text-center">
-                    <Image className="portfolio-about-image img-thumbnail shadow-md" roundedCircle src={KatieProfile} alt="Katie Harshman" />
+                    <Image className="portfolio-about-image img-thumbnail shadow-md" width="250" height="250" roundedCircle src={KatieProfile} alt="Katie Harshman" />
                     <p className="lead pt-5 pb-0 m-0">Katie Harshman</p>
                     <p className="lead pt-0">Campbell, California</p>
                 </div>

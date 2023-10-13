@@ -46,15 +46,15 @@ class Contact extends React.Component {
                     </div>
 
                     <Container fluid className="p-1 p-lg-5">
-                        <Form onSubmit={this.handleSubmit} autocomplete="on">
+                        <Form onSubmit={this.handleSubmit} autoComplete="on">
                             <input type="hidden" name="contactForm" value="contactForm"></input>
                             <Form.Group className="mb-3" controlId="contactForm.Name" data-bs-theme="dark">
                                 <Form.Label>Name</Form.Label>
-                                <Form.Control type="text" name="name" value={name} onChange={this.handleChange} className="portfolio-input" />
+                                <Form.Control type="text" name="name" value={name} onChange={this.handleChange} className="portfolio-input" autoComplete="name" />
                             </Form.Group>
                             <Form.Group className="mb-5" controlId="contactForm.Email" data-bs-theme="dark">
                                 <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" name="email" value={email} onChange={this.handleChange} placeholder="name@example.com" className="portfolio-input" />
+                                <Form.Control type="email" name="email" value={email} onChange={this.handleChange} placeholder="name@example.com" className="portfolio-input" autoComplete="email" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="contactForm.Subject" data-bs-theme="dark">
                                 <Form.Label>Subject</Form.Label>

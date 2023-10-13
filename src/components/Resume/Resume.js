@@ -126,6 +126,7 @@ const Resume = (props) => {
                     <Collapse in={open}>
                         <div id="workMore-collapse-text">
                             {displayWorkMore}
+                            <p className="lead text-white-50">I am happy to discuss additional education and employment history upon requestion. Please fill out the <a href="#Contact">contact form</a> to get in touch!.</p>
                         </div>
                     </Collapse>
                     <Button

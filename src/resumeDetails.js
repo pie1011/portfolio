@@ -5,7 +5,7 @@ export const resumeDetails = {
     "image": "public/images/KatieProfile.jpg",
     "bio1": "I am a motivated and detail-oriented full-stack developer with experience in front-end and back-end technologies.",
     "bio2": "I enjoy working with tools such as Visual Studio Code, Git & GitHub, languages and frameworks like Python (Flask, Django) and JavaScript (React), and various database technologies including SQL, Postgres, and MongoDB. With a strong foundation in HTML, CSS, and responsive design, I prioritize user-friendly and accessible web experiences.",
-    "bio3": "I have pursued continuous learning through training and certifications from platforms like Udemy, Codecademy, FreeCodeCamp, and Harvard via edX.org, covering topics such as clean code practices, software testing, and web development.",
+    "bio3": "I have actively committed myself to ongoing professional development by acquiring various certifications. Some of the platforms I use to build my skills include Udemy, Codecademy, FreeCodeCamp, and Harvard via edX.org, Completed courses cover topics such as clean code practices, software testing, and web development.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",

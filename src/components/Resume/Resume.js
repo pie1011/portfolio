@@ -118,6 +118,8 @@ const Resume = (props) => {
             <Row className="row-cols-1 row-cols-md-2 overflow-y-auto">
                 <Col className="portfolio-resume-container col-md-4 me-1 me-md-5 text-center text-md-end">
                     <h2 className="display-1 name-header">Work</h2>
+                    <p className="lead">I am happy to discuss additional education and employment history upon requestion. Please fill out the <a href="#Contact">contact form</a> to get in touch!.</p>
+
                 </Col>
                 <Col className="mt-5 p-1 p-xxlg-5 ps-lg-4">
                     {displayWork}

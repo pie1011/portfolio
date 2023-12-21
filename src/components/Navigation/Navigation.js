@@ -18,6 +18,8 @@ const Navigation = () => {
                         <Nav.Link href="#Resume">Resume</Nav.Link>
                         <Nav.Link href="#Projects">Projects</Nav.Link>
                         <Nav.Link href="#Contact">Contact</Nav.Link>
+                        <Nav.Link className="my-0" href="https://linkedin.com/in/pie1011" ><i className="bi bi-linkedin"></i></Nav.Link>
+
                     </Nav>
                 </Navbar.Collapse>
             </Container>

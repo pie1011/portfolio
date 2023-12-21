@@ -43,6 +43,9 @@ class Contact extends React.Component {
                     <div className="w-100 w-lg-25 p-1 p-lg-5 text-center">
                         <h2 className="display-1 name-header mb-3">Contact</h2>
                         <p className="lead text-center text-lg-end">I am currently looking for new opportunities. If you have any questions or would like to get in touch, please fill out this form.</p>
+                        <p>
+                            <a href="https://linkedin.com/in/pie1011" target="blank" className="portfolio-button-link mx-1"><i className="bi bi-linkedin"></i></a>
+                        </p>
                     </div>
 
                     <Container fluid className="p-1 p-lg-5">

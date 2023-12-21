@@ -272,32 +272,11 @@ export const resumeDetails = {
         "github": "https://github.com/pie1011/chat"
       },
       {
-        "title": "Sample Project 02",
-        "description": "My Travel Blog for my post-university travels",
+        "title": "The Salon",
+        "description": "Python/Flask web app for a mock salon with a database using SQLAlchemy.",
         "image": "2",
-        "url": "https://www.github.com/pie1011",
-        "github": "https://www.github.com/pie1011"
-      },
-      {
-        "title": "Sample Project 03",
-        "description": "My Travel Blog for my post-university travels",
-        "image": "3",
-        "url": "https://www.github.com/pie1011",
-        "github": "https://www.github.com/pie1011"
-      },
-      {
-        "title": "Sample Project 04",
-        "description": "My Travel Blog for my post-university travels",
-        "image": "4",
-        "url": "https://www.github.com/pie1011",
-        "github": "https://www.github.com/pie1011"
-      },
-      {
-        "title": "Sample Project 05",
-        "description": "My Travel Blog for my post-university travels",
-        "image": "5",
-        "url": "https://www.github.com/pie1011",
-        "github": "https://www.github.com/pie1011"
+        "url": "",
+        "github": "https://github.com/pie1011/the-salon"
       }
     ]
   }

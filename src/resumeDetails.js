@@ -258,11 +258,11 @@ export const resumeDetails = {
   "portfolio": {
     "projects": [
       {
-        "title": "Sample Project 00",
-        "description": "My Travel Blog for my post-university travels",
+        "title": "Pro Appliance Installation",
+        "description": "WordPress website for company at proapplianceinstallation.com",
         "image": "0",
-        "url": "https://www.github.com/pie1011",
-        "github": "https://www.github.com/pie1011"
+        "url": "https://www.proapplianceinstallation.com",
+        "github": ""
       },
       {
         "title": "Simple Chat",

@@ -22,7 +22,7 @@ const Projects = (props) => {
                     <Card.Body>
                         <Card.Text className="text-center">
                             <a className="portfolio-button-link mx-1" href={projects.url} target="blank"><i className="bi bi-binoculars-fill"></i></a>
-                            <a className="portfolio-button-link mx-1" href={projects.github} target="blank"><i className="bi bi-github"></i></a>
+                            { projects.github === "" ? null : <a className="portfolio-button-link mx-1" href={projects.github} target="blank"><i className="bi bi-github"></i></a> }
                         </Card.Text>
                         <Card.Text>
                             {projects.description}

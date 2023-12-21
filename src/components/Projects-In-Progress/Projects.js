@@ -44,7 +44,7 @@ const Projects = (props) => {
                 {displayProjects}
             </Container>
             <Container fluid className="portfolio-down mt-auto pb-5 mx-auto text-white-50 text-center">
-                <a href="#Home" className="down-arrow" aria-label="Move to the Home section.">
+                <a href="#Contact" className="down-arrow" aria-label="Move to the Contact section.">
                     <i className="bi bi-arrow-down-circle-fill"></i>
                 </a>
             </Container>

@@ -91,6 +91,22 @@ export const resumeDetails = {
 
     "training": [
       {
+        "site": "calbright college",
+        "trainingImage": "https://www.calbright.org/programs/crm/",
+        "data": [
+          {
+            "name": "Salesforce CRM Administrator",
+            "certificate": "Certificate in progress",
+            "date": "In Progress"
+          },
+          {
+            "name": "Lightning Reports & Dashboards Specialist",
+            "certificate": "Superbadge",
+            "date": "December 2023"
+          }
+        ]
+      },
+      {
         "site": "udemy.com",
         "data": [
           {
@@ -146,17 +162,6 @@ export const resumeDetails = {
           {
             "name": "Harvard's CS50x Introduction to Computer Science",
             "certificate": "In Progress",
-            "date": "In Progress"
-          }
-        ]
-      },
-      {
-        "site": "calbright college",
-        "trainingImage": "https://www.calbright.org/programs/crm/",
-        "data": [
-          {
-            "name": "Salesforce CRM Administrator",
-            "certificate": "Certificate in progress",
             "date": "In Progress"
           }
         ]

@@ -103,6 +103,11 @@ export const resumeDetails = {
             "name": "Lightning Reports & Dashboards Specialist",
             "certificate": "Superbadge",
             "date": "December 2023"
+          },
+          {
+            "name": "Data Standardization",
+            "certificate": "Superbadge",
+            "date": "December 2023"
           }
         ]
       },

@@ -32,7 +32,7 @@ const Resume = (props) => {
                         return (
                             <div key={item.name} className="d-flex flex-column flex-lg-row ps-3">
                                 <h5>
-                                    <span className="bull d-none d-lg-inline">&bull;</span>
+                                    <span className="bull d-none d-lg-inline">&bull; </span>
                                     { item.name === "Salesforce CRM Administrator" ? <span className="fw-bold">{item.name}</span> : item.name }
                                 </h5>
                                 <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em>

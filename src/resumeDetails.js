@@ -106,7 +106,12 @@ export const resumeDetails = {
           },
           {
             "name": "Data Standardization",
-            "certificate": "Superbadge",
+            "certificate": "Superbadge Unit",
+            "date": "December 2023"
+          },
+          {
+            "name": "Extended User Access & Restriction",
+            "certificate": "Superbadge Unit",
             "date": "December 2023"
           }
         ]

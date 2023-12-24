@@ -111,6 +111,9 @@ const Resume = (props) => {
                     <p className="lead">
                         A sampling of certifcations completed or in progress.
                     </p>
+                    <p className="">
+                    <a href="https://salesforce.com/trailblazer/katharineharshman" target="_blank" rel="noreferrer"> <i class="bi bi-cloud-fill"></i> View my Trailhead profile</a> for my latest Salesforce training.
+                    </p>
                 </Col>
                 <Col className="mt-5 p-1 p-xxlg-5 ps-lg-4">
                     {displayTraining}

@@ -110,7 +110,17 @@ export const resumeDetails = {
             "date": "December 2023"
           },
           {
+            "name": "User Access Fundamentals",
+            "certificate": "Superbadge Unit",
+            "date": "December 2023"
+          },
+          {
             "name": "Extended User Access & Restriction",
+            "certificate": "Superbadge Unit",
+            "date": "December 2023"
+          },
+          {
+            "name": "User Access Troubleshooting",
             "certificate": "Superbadge Unit",
             "date": "December 2023"
           }

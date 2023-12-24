@@ -32,8 +32,8 @@ const Resume = (props) => {
                         return (
                             <div key={item.name} className="d-flex flex-column flex-lg-row ps-3">
                                 <h5>
-                                    { item.certificate !== "Superbadge Unit" ? <span className="bull d-none d-lg-inline">&bull; </span> : <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span>}
-                                    { item.certificate !== "Superbadge Unit" ? <span className="fw-bold">{item.name}</span> : <span className="small text-secondary">{item.name}</span> }
+                                    { item.certificate === "Superbadge Unit" ?  <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span> : item.certificate === "Certificate in progress" ? <span className="bull d-none d-lg-inline">&bull; </span> : <span className="bull d-none d-lg-inline">&bull; </span> }
+                                    { item.certificate === "Superbadge Unit" ?  <span className="small text-secondary">{item.name}</span> : item.certificate === "Certificate in progress" ? <span className="fw-bold">{item.name}</span> : item.name }
                                 </h5>
                                 { item.certificate !== "Superbadge Unit" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em> : <em className="ps-0 ps-lg-3 pb-3 pb-lg-0 small text-secondary"> {item.certificate}  <span className="bull text-secondary">&bull;</span> {item.date}</em> }
                             </div>
@@ -166,3 +166,7 @@ const Resume = (props) => {
 }
 
 export default Resume;
+
+
+// "skill": "HTML, CSS, Responsive Design"
+// { item.certificate === "Certificate in progress" || item.certificate === "Superbadge" ? <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span> : <span className="bull d-none d-lg-inline">&bull; </span> }

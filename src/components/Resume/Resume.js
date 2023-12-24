@@ -32,10 +32,10 @@ const Resume = (props) => {
                         return (
                             <div key={item.name} className="d-flex flex-column flex-lg-row ps-3">
                                 <h5>
-                                    <span className="bull d-none d-lg-inline">&bull; </span>
-                                    { item.name === "Salesforce CRM Administrator" ? <span className="fw-bold">{item.name}</span> : item.name }
+                                    { item.certificate !== "Superbadge Unit" ? <span className="bull d-none d-lg-inline">&bull; </span> : <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span>}
+                                    { item.certificate !== "Superbadge Unit" ? <span className="fw-bold">{item.name}</span> : <span className="small text-secondary">{item.name}</span> }
                                 </h5>
-                                <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em>
+                                { item.certificate !== "Superbadge Unit" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em> : <em className="ps-0 ps-lg-3 pb-3 pb-lg-0 small text-secondary"> {item.certificate}  <span className="bull text-secondary">&bull;</span> {item.date}</em> }
                             </div>
                         )
                     })}

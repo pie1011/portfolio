@@ -146,7 +146,9 @@ export const resumeDetails = {
             "date": "April 2023"
           }
         ]
-      },
+      }
+    ],
+    "trainMore": [
       {
         "site": "codecademy.com",
         "data": [

@@ -11,23 +11,19 @@ export const resumeDetails = {
     "phone": "555-555-5555",
     "github": "https://github.com/pie1011",
     "projects": "#Projects",
+    "resume": "#Resume",
     "address": {
       "street": "(Your Street)",
       "city": "Campbell",
       "state": "California",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "http://www.katieharshman.com",
+    "resumedownload": "http://katieharshman.com",
     "social": [
       {
-        "name": "facebook",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "twitter",
-        "url": "http://twitter.com",
+        "url": "https://twitter.com/makncheezburger",
         "className": "fa fa-twitter"
       },
       {
@@ -37,12 +33,12 @@ export const resumeDetails = {
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
+        "url": "http://instagram.com/",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "url": "https://github.com/pie1011",
         "className": "fa fa-github"
       }
     ],

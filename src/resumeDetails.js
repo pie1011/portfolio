@@ -295,7 +295,7 @@ export const resumeDetails = {
         "title": "Simple Chat",
         "description": "Simple multi-room chat in JavaScript with a server using socket.io.",
         "image": "1",
-        "url": "https://chatrooms.onrender.com",
+        "url": "",
         "github": "https://github.com/pie1011/chat"
       },
       {
@@ -325,3 +325,6 @@ export const resumeDetails = {
 //   "certificate": "Superbadge Unit",
 //   "date": "December 2023"
 // },
+// 
+// Chat live link that doesn't always work 
+// https://chatrooms.onrender.com

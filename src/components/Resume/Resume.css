@@ -51,6 +51,7 @@ h4.small-caps {
   font-variant: small-caps;
 }
 
+
 @media screen and (max-width: 1400px) {
   h5 {
     font-size: 1.1rem;

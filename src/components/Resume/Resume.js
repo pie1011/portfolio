@@ -9,12 +9,25 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
+
 const Resume = (props) => {
 
     const [openTrain, setOpenTrain] = useState(false);
     const [open, setOpen] = useState(false);
 
     if (!props.data) return null;
+
+    // Tooltip for training items
+
+    const Unit = ({ id, children, title }) => (
+        <OverlayTrigger overlay={
+            <Tooltip id={id}>{title}</Tooltip>
+        }>
+          <span style={{"cursor": "help"}}>{children}</span>
+        </OverlayTrigger>
+      );
 
 
     // Display training items
@@ -34,10 +47,10 @@ const Resume = (props) => {
                         return (
                             <div key={item.name} className="d-flex flex-column flex-lg-row ps-3">
                                 <h5>
-                                    { item.certificate === "Superbadge Unit" ?  <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span> : item.certificate === "Certificate in progress" ? <span className="bull d-none d-lg-inline">&bull; </span> : <span className="bull d-none d-lg-inline">&bull; </span> }
-                                    { item.certificate === "Superbadge Unit" ?  <span className="small text-secondary">{item.name}</span> : item.certificate === "Certificate in progress" ? <span className="fw-bold">{item.name}</span> : item.name }
+                                    { item.certificate === "Superbadge" ?  <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span> : item.certificate === "Certificate in progress" ? <span className="bull d-none d-lg-inline">&bull; </span> : <span className="bull d-none d-lg-inline">&bull; </span> }
+                                    { item.certificate === "Superbadge" ?  <Unit title={item.tooltip} id="t-1"><span className="small text-secondary">{item.name}</span></Unit> : item.certificate === "Certificate in progress" ? <span className="fw-bold">{item.name}</span> : item.name }
                                 </h5>
-                                { item.certificate !== "Superbadge Unit" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em> : <em className="ps-0 ps-lg-3 pb-3 pb-lg-0 small text-secondary"> {item.certificate}  <span className="bull text-secondary">&bull;</span> {item.date}</em> }
+                                { item.certificate !== "Superbadge" && item.certificate !== "Heading" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em> : item.certificate === "Certificate in progress" || item.certificate === "Superbadge" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0 small text-secondary"> {item.certificate}  <span className="bull text-secondary">&bull;</span> {item.date}</em> : null }
                             </div>
                         )
                     })}
@@ -72,10 +85,10 @@ const Resume = (props) => {
                         return (
                             <div key={item.name} className="d-flex flex-column flex-lg-row ps-3">
                                 <h5>
-                                    { item.certificate === "Superbadge Unit" ?  <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span> : item.certificate === "Certificate in progress" ? <span className="bull d-none d-lg-inline">&bull; </span> : <span className="bull d-none d-lg-inline">&bull; </span> }
-                                    { item.certificate === "Superbadge Unit" ?  <span className="small text-secondary">{item.name}</span> : item.certificate === "Certificate in progress" ? <span className="fw-bold">{item.name}</span> : item.name }
+                                    { item.certificate === "Superbadge" ?  <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span> : item.certificate === "Certificate in progress" ? <span className="bull d-none d-lg-inline">&bull; </span> : <span className="bull d-none d-lg-inline">&bull; </span> }
+                                    { item.certificate === "Superbadge" ?  <span className="small text-secondary">{item.name}</span> : item.certificate === "Certificate in progress" ? <span className="fw-bold">{item.name}</span> : item.name }
                                 </h5>
-                                { item.certificate !== "Superbadge Unit" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em> : <em className="ps-0 ps-lg-3 pb-3 pb-lg-0 small text-secondary"> {item.certificate}  <span className="bull text-secondary">&bull;</span> {item.date}</em> }
+                                { item.certificate !== "Superbadge" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em> : <em className="ps-0 ps-lg-3 pb-3 pb-lg-0 small text-secondary"> {item.certificate}  <span className="bull text-secondary">&bull;</span> {item.date}</em> }
                             </div>
                         )
                     })}

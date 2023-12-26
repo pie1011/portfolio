@@ -96,34 +96,33 @@ export const resumeDetails = {
             "date": "In Progress"
           },
           {
+            "name": "Salesforce Trailhead Superbadges:",
+            "certificate": "Heading",
+            "date": ""
+          },
+          {
             "name": "Lightning Reports & Dashboards Specialist",
             "certificate": "Superbadge",
-            "date": "December 2023"
+            "date": "December 2023",
+            "tooltip": "Includes Reports & Dashboards for Lightning Experience, Create Reports & Dashboards for Sales and Marketing Managers, and Lightning App Builder Quick Start"
+          },
+          {
+            "name": "User Authentication Specialist",
+            "certificate": "Superbadge",
+            "date": "December 2023",
+            "tooltip": "Includes Credential Security, Multi-Factor and Single Sign-On User Authentication, and User Authentication Troubleshooting"
           },
           {
             "name": "User Access Superbadge",
             "certificate": "Superbadge",
             "date": "December 2023",
+            "tooltip": "Includes User Access Fundamentals (with Data Security), Extended User Access & Restriction, and User Access Troubleshooting"
           },
           {
-            "name": "User Access Fundamentals",
-            "certificate": "Superbadge Unit",
-            "date": "December 2023"
-          },
-          {
-            "name": "Extended User Access & Restriction",
-            "certificate": "Superbadge Unit",
-            "date": "December 2023"
-          },
-          {
-            "name": "User Access Troubleshooting",
-            "certificate": "Superbadge Unit",
-            "date": "December 2023"
-          },
-          {
-            "name": "Data Standardization",
-            "certificate": "Superbadge Unit",
-            "date": "December 2023"
+            "name": "Data Standardization Unit",
+            "certificate": "Superbadge",
+            "date": "December 2023",
+            "tooltip": "Includes Data Quality for Sales and Support Teams, and Picklist Administration"
           },
         ]
       },
@@ -309,3 +308,20 @@ export const resumeDetails = {
     ]
   }
 }
+
+
+// {
+//   "name": "User Access Fundamentals",
+//   "certificate": "Superbadge Unit",
+//   "date": "December 2023"
+// },
+// {
+//   "name": "Extended User Access & Restriction",
+//   "certificate": "Superbadge Unit",
+//   "date": "December 2023"
+// },
+// {
+//   "name": "User Access Troubleshooting",
+//   "certificate": "Superbadge Unit",
+//   "date": "December 2023"
+// },

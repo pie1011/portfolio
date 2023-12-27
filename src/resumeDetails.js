@@ -106,7 +106,7 @@ export const resumeDetails = {
             "date": "December 2023",
             "tooltip": "Includes Reports & Dashboards for Lightning Experience, Create Reports & Dashboards for Sales and Marketing Managers, and Lightning App Builder Quick Start"
           },          {
-            "name": "Security Governance Superbadge",
+            "name": "Security Governance Specialist",
             "certificate": "Superbadge",
             "date": "December 2023",
             "tooltip": "Includes Authentication Governanace and Access Governance, with modules User Authentication, Data Security, and Privilaged User Responsibilities"

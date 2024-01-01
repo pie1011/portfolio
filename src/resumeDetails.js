@@ -104,7 +104,7 @@ export const resumeDetails = {
             "name": "Apex Specialist (in progress)",
             "certificate": "Superbadge",
             "date": "Est. Completion January 2024",
-            "tooltip": "Includes Apex Triggers, Apex Testing, Asynchronous Apex, and Apex Integration Services"
+            "tooltip": "Includes modules I have already completed: Apex Triggers, Apex Testing, Asynchronous Apex, and Apex Integration Services"
           },
           {
             "name": "Lightning Reports & Dashboards Specialist",

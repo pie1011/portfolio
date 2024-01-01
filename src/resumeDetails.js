@@ -101,11 +101,18 @@ export const resumeDetails = {
             "date": ""
           },
           {
+            "name": "Apex Specialist (in progress)",
+            "certificate": "Superbadge",
+            "date": "Est. Completion January 2024",
+            "tooltip": "Includes Apex Triggers, Apex Testing, Asynchronous Apex, and Apex Integration Services"
+          },
+          {
             "name": "Lightning Reports & Dashboards Specialist",
             "certificate": "Superbadge",
             "date": "December 2023",
             "tooltip": "Includes Reports & Dashboards for Lightning Experience, Create Reports & Dashboards for Sales and Marketing Managers, and Lightning App Builder Quick Start"
-          },          {
+          },
+          {
             "name": "Security Governance Specialist",
             "certificate": "Superbadge",
             "date": "December 2023",

@@ -107,6 +107,12 @@ export const resumeDetails = {
             "tooltip": "Includes Reports & Dashboards for Lightning Experience, Data Security, Customize an Org to Support a New Business Unit, and Create Reports and Dashboards for Sales and Marketing Managers"
           },
           {
+            "name": "Security Specialist",
+            "certificate": "Superbadge",
+            "date": "January 2024",
+            "tooltip": "Includes User Authentication Specialist Superbadge, Security Governance Specialist Superbadge, and User Access Specialist Superbadge"
+          },
+          {
             "name": "Apex Specialist",
             "certificate": "Superbadge",
             "date": "January 2024",

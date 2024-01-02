@@ -101,10 +101,16 @@ export const resumeDetails = {
             "date": ""
           },
           {
-            "name": "Apex Specialist (in progress)",
+            "name": "Business Administration Specialist",
             "certificate": "Superbadge",
-            "date": "Est. Completion January 2024",
-            "tooltip": "Includes modules I have already completed: Apex Triggers, Apex Testing, Asynchronous Apex, and Apex Integration Services"
+            "date": "January 2024",
+            "tooltip": "Includes Reports & Dashboards for Lightning Experience, Data Security, Customize an Org to Support a New Business Unit, and Create Reports and Dashboards for Sales and Marketing Managers"
+          },
+          {
+            "name": "Apex Specialist",
+            "certificate": "Superbadge",
+            "date": "January 2024",
+            "tooltip": "Includes Apex Triggers, Apex Testing, Asynchronous Apex, and Apex Integration Services"
           },
           {
             "name": "Lightning Reports & Dashboards Specialist",

@@ -49,7 +49,7 @@ const Resume = (props) => {
                                 <h5>
                                     { item.certificate === "Superbadge" ?  <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span> : item.certificate === "Certificate in progress" ? <span className="bull d-none d-lg-inline">&bull; </span> : <span className="bull d-none d-lg-inline">&bull; </span> }
                                     { item.certificate === "Superbadge" ?  <Unit title={item.tooltip} id="t-1"><span className="small text-secondary">{item.name}</span></Unit> : item.certificate === "Certificate in progress" ? <span className="fw-bold">{item.name}</span> : item.name }
-                                    { item.certificate === "Heading" ? <p className="d-inline d-lg-none small"><br /> <i>Tap each to view a description of modules included.</i></p> : null }
+                                    { item.certificate === "Heading" ? <p className="d-inline d-lg-none small py-2"><br /> <i>Tap each to view a description of modules included.</i></p> : null }
                                 </h5>
                                 { item.certificate !== "Superbadge" && item.certificate !== "Heading" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em> : item.certificate === "Certificate in progress" || item.certificate === "Superbadge" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0 small text-secondary"> {item.certificate}  <span className="bull text-secondary">&bull;</span> {item.date}</em> : null }
                             </div>

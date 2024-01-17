@@ -119,6 +119,12 @@ export const resumeDetails = {
             "tooltip": "Includes Apex Triggers, Apex Testing, Asynchronous Apex, and Apex Integration Services"
           },
           {
+            "name": "Flow Administration",
+            "certificate": "Superbadge",
+            "date": "January 2024",
+            "tooltip": "Includes Flow Builder Basics and Build a Simple Flow"
+          },
+          {
             "name": "Lightning Reports & Dashboards Specialist",
             "certificate": "Superbadge",
             "date": "December 2023",

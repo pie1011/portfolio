@@ -107,6 +107,12 @@ export const resumeDetails = {
             "tooltip": "Includes Reports & Dashboards for Lightning Experience, Data Security, Customize an Org to Support a New Business Unit, and Create Reports and Dashboards for Sales and Marketing Managers"
           },
           {
+            "name": "Approval Process Specialist",
+            "certificate": "Superbadge",
+            "date": "January 2024",
+            "tooltip": "Includes User Approval Process Management Superbadge Unit, and Approval Process Troubleshooting Superbadge Unit"
+          },
+          {
             "name": "Security Specialist",
             "certificate": "Superbadge",
             "date": "January 2024",

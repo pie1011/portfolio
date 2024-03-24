@@ -7,7 +7,7 @@ import Navigation from '../Navigation/Navigation';
 import Cover from '../Cover/Cover';
 import About from '../About/About';
 import Resume from '../Resume/Resume';
-import Projects from '../Projects-In-Progress/Projects';
+import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Bottom from '../Bottom/Bottom';
 

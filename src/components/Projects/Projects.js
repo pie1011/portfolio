@@ -10,6 +10,7 @@ const Projects = (props) => {
             <Container className="fluid my-auto">
                 <h2 className="display-1 name-header text-center">Projects</h2>
                 <h3 className="text-center">Coming soon!</h3>
+                <p>In the meantime, check out this <a href="https://github.com/pie1011/salon" target="blank">mock salon</a> I made, or my <a href="https://github.com/pie1011" target="blank">github</a>!</p>
             </Container>
         </Container>
     )

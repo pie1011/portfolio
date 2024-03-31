@@ -24,7 +24,7 @@ const Cover = (props) => {
                 </p>
                 <div className="d-flex flex-column flex-lg-row justify-content-center">
                     <Button className="btn portfolio-button m-3 px-3" size="lg" href={resume}>
-                        <i class="bi bi-card-list"></i> Resume
+                        <i class="bi bi-card-list"></i> Experience
                     </Button>
                     <Button className="btn portfolio-button secondary m-3 px-3" size="lg" href={github} target="_blank" >
                         <i className="bi bi-github"></i> GitHub

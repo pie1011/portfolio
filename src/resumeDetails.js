@@ -83,7 +83,7 @@ export const resumeDetails = {
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Write-up of skills",
 
     "training": [
       {
@@ -91,10 +91,16 @@ export const resumeDetails = {
         "trainingImage": "https://www.calbright.org/programs/crm/",
         "data": [
           {
-            "name": "Salesforce CRM Administrator",
+            "name": "Project Management",
             "certificate": "Certificate in progress",
             "date": "In Progress"
           },
+          {
+            "name": "CRM Platform Administration",
+            "certificate": "Certificate",
+            "date": "January 2024"
+          },
+
           {
             "name": "Salesforce Trailhead Superbadges:",
             "certificate": "Heading",

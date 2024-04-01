@@ -15,7 +15,7 @@ const Navigation = () => {
                     <Nav className="portfolio-nav-text mx-auto my-2">
                         <Nav.Link href="#Home">Home</Nav.Link>
                         <Nav.Link href="#About">About</Nav.Link>
-                        <Nav.Link href="#Resume">Resume</Nav.Link>
+                        <Nav.Link href="#Resume">Experience</Nav.Link>
                         <Nav.Link href="#Projects">Projects</Nav.Link>
                         <Nav.Link href="#Contact">Contact</Nav.Link>
                         <Nav.Link className="my-0" href="https://linkedin.com/in/pie1011" target="blank" ><i className="bi bi-linkedin"></i></Nav.Link>

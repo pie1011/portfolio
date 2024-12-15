@@ -238,7 +238,7 @@ export const resumeDetails = {
       {
         "company": "ThriveDX",
         "title": "Associate SD Instructor (Part-Time)",
-        "years": "April 2022 - Present",
+        "years": "April 2022 - November 2024",
         "description": [
           "Teach and mentor cohorts of students (SDSU, UNLV, UCLB, etc.) on programming languages, web development, database management, and software engineering principles.",
           "Participate in instructor training, professional development, and curriculum review to stay current with industry trends and best practices."
@@ -260,7 +260,7 @@ export const resumeDetails = {
     "workMore": [
       {
         "company": "Pro Appliance Installation",
-        "title": "Co-founder, Multiple Roles in Operations Management and Web Development ",
+        "title": "Co-founder, Roles in Operations Management, Development ",
         "years": "April 2016 - April 2022",
         "description": [
           "Plan and implement business strategies, plans and procedures (startup).",
@@ -272,8 +272,8 @@ export const resumeDetails = {
       },
       {
         "company": "Los Gatos Swim & Racquet Club",
-        "title": "Multiple Roles including Administrative Assistant & Childcare Director ",
-        "years": "On-and-off from 1999 - 2013",
+        "title": "Roles including Administrative Assistant, Childcare Director ",
+        "years": "On/Off from 1999 - 2013",
         "description": [
           "Managed member interactions, organized programs, hired and supervised staff.",
           "Administered office tasks including document management, scheduling, and inventory control, contributing to smooth daily operations."

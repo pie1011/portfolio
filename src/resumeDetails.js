@@ -268,7 +268,7 @@ export const resumeDetails = {
         ]
       },
       {
-        "company": "Pro Appliance Installation ",
+        "company": "  ",
         "title": "Owner + Operations Manager ",
         "years": "April 2016 - May 2017",
         "description": [

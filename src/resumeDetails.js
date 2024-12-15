@@ -1,7 +1,7 @@
 export const resumeDetails = {
   "main": {
     "name": "Katie Harshman",
-    "description": "Full-stack developer with a passion for learning, looking for opportunities to grow professionally and contribute to projects that make a difference.",
+    "description": "Empowering innovation and growth through dynamic leadership, technical expertise, and a passion for learning.",
     "image": "public/images/KatieProfile.jpg",
     "bio1": "Dynamic and results-oriented professional with a diverse background in software development, instructional leadership, and operational management.",
     "bio2": "I am a motivated and detail-oriented full-stack developer with experience in front-end and back-end technologies. I enjoy working with tools such as Visual Studio Code, Git & GitHub, languages and frameworks like Python (Flask, Django) and JavaScript (React), and various database technologies including SQL, Postgres, and MongoDB. With a strong foundation in HTML, CSS, and responsive design, I prioritize user-friendly and accessible web experiences.",

@@ -237,7 +237,7 @@ export const resumeDetails = {
     "work": [
       {
         "company": "ThriveDX",
-        "title": "Associate SD Instructor (Part-Time)",
+        "title": "Software Development Instructor",
         "years": "April 2022 - November 2024",
         "description": [
           "Teach and mentor cohorts of students (SDSU, UNLV, UCLB, etc.) on programming languages, web development, database management, and software engineering principles.",

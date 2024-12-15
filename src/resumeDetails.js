@@ -260,21 +260,23 @@ export const resumeDetails = {
     "workMore": [
       {
         "company": "Pro Appliance Installation",
-        "title": "Web Development + Support ",
-        "years": "April 2016 - Present",
+        "title": "Co-founder, Multiple Roles in Operations Management and Web Development ",
+        "years": "April 2016 - April 2022",
         "description": [
+          "Plan and implement business strategies, plans and procedures (startup).",
+          "Oversee daily operations (IT, marketing, sales, service order dispatch, etc.).",
+          "Manage phones, schedule projects, interact with clients and vendors.",
           "Design and maintain company website Fun Fact: Streamlined client intake!",
           "Administrative support with forms, documents, template."
         ]
       },
       {
-        "company": "  ",
-        "title": "Owner + Operations Manager ",
-        "years": "April 2016 - May 2017",
+        "company": "Los Gatos Swim & Racquet Club",
+        "title": "Multiple Roles including Administrative Assistant & Childcare Director ",
+        "years": "On-and-off from 1999 - 2013",
         "description": [
-          "Plan and implement business strategies, plans and procedures (startup).",
-          "Oversee daily operations (IT, marketing, sales, service order dispatch, etc.).",
-          "Manage phones, schedule projects, interact with clients and vendors."
+          "Managed member interactions, organized programs, hired and supervised staff.",
+          "Administered office tasks including document management, scheduling, and inventory control, contributing to smooth daily operations."
         ]
       }
     ],
@@ -283,13 +285,13 @@ export const resumeDetails = {
         "school": "University?",
         "degree": "Masters in Beer tasting",
         "graduated": "April 2017",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "Nothing to say here."
       },
       {
         "school": "School #1 Maybe College?",
         "degree": "What did you study 101",
         "graduated": "March 2013",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "Nothing to say here."
       }
     ],
 

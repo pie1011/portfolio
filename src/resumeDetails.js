@@ -90,9 +90,14 @@ export const resumeDetails = {
         "trainingImage": "https://www.calbright.org/programs/crm/",
         "data": [
           {
-            "name": "Project Management",
-            "certificate": "Certificate in progress",
+            "name": "Data Analysis",
+            "certificate": "Certificate In Progress",
             "date": "In Progress"
+          },
+          {
+            "name": "Project Management",
+            "certificate": "Certificate",
+            "date": "January 2025"
           },
           {
             "name": "CRM Platform Administration",
@@ -168,6 +173,29 @@ export const resumeDetails = {
         ]
       },
       {
+        "site": "West Valley College",
+        "data": [
+          {
+            "name": "Associate's Degree",
+            "certificate": "AA in Liberal Studies, Social & Behavioral Sciences Emphasis",
+            "date": "November 2011"
+          },
+          {
+            "name": "Software Testing Processes & Techniques",
+            "certificate": "Certificate",
+            "date": "October 2022"
+          },
+          {
+            "name": "Java Collections from Basic to Advanced",
+            "certificate": "Certificate",
+            "date": "April 2023"
+          }
+        ]
+      }
+
+    ],
+    "trainMore": [
+      {
         "site": "udemy.com",
         "data": [
           {
@@ -187,8 +215,6 @@ export const resumeDetails = {
           }
         ]
       }
-    ],
-    "trainMore": [
       {
         "site": "codecademy.com",
         "data": [

@@ -1,12 +1,11 @@
 export const resumeDetails = {
   "main": {
     "name": "Katie Harshman",
-    "description": "Empowering innovation and growth through dynamic leadership, technical expertise, and a passion for learning.",
+    "description": "Versatile professional with experience in customer engagement, project support, and process improvement eager to grow in a dynamic environment.",
     "image": "public/images/KatieProfile.jpg",
-    "bio1": "Dynamic and results-oriented professional with a diverse background in software development, instructional leadership, and operational management.",
-    "bio2": "I am a motivated and detail-oriented full-stack developer with experience in front-end and back-end technologies. I enjoy working with tools such as Visual Studio Code, Git & GitHub, languages and frameworks like Python (Flask, Django) and JavaScript (React), and various database technologies including SQL, Postgres, and MongoDB. With a strong foundation in HTML, CSS, and responsive design, I prioritize user-friendly and accessible web experiences.",
-    "bio3": "I have actively committed myself to ongoing professional development by acquiring various certifications. Some of the platforms I use to build my skills include Udemy, Codecademy, FreeCodeCamp, and Harvard via edX.org, Completed courses cover topics such as clean code practices, software testing, and web development.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "bio1": "I’m excited to work for a fast-growing company because I’m motivated by the opportunity to contribute to meaningful projects, collaborate with diverse teams, and continuously learn in an evolving environment.",
+    "bio2": "Motivated and adaptable professional with a background in software development, technical instruction, and customer engagement. Experienced in working with diverse teams, learning new technologies, and supporting business operations through problem-solving and collaboration. Skilled in programming, technical documentation, and CRM tools, with a strong interest in continuous learning and professional growth. Passionate about applying technical knowledge to real-world challenges and contributing to team success.",
+    "bio3": "Seeking an opportunity to apply my technical and communication skills in a dynamic environment where I can contribute to projects, support team goals, and continue learning. Enthusiastic about leveraging my problem-solving abilities, technical knowledge, and customer engagement experience to help drive innovation and efficiency. Looking to join a company that values collaboration, professional development, and creative problem-solving, where I can grow while making a meaningful impact.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
     "github": "https://github.com/pie1011",

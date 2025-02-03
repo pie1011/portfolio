@@ -189,6 +189,18 @@ export const resumeDetails = {
 
     "work": [
       {
+        "company": "Firework",
+        "title": "Virtual Sales Associate",
+        "years": "October 2024 - Present",
+        "description": [
+          "Market and sell tech products directly to individual customers through personalized 1-to-1 solutions.",
+          "Provide personalized and helpful sales experiences by promptly answering all calls.",
+          "Demonstrate expertise in Firework’s brand, products, and key selling points to enhance the quality of customer sales interactions.",
+          "Master the operation of Firework's technology for 1-to-1 video calls, ensuring a seamless customer experience.",
+          "Participate in continuous product knowledge training and educational initiatives to stay informed on updates and advancements."
+        ]
+      },
+      {
         "company": "ThriveDX",
         "title": "Software Development Instructor",
         "years": "April 2022 - November 2024",

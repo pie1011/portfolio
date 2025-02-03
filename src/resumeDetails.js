@@ -103,73 +103,7 @@ export const resumeDetails = {
             "name": "CRM Platform Administration",
             "certificate": "Certificate",
             "date": "January 2024"
-          },
-
-          {
-            "name": "Salesforce Trailhead Superbadges:",
-            "certificate": "Heading",
-            "date": ""
-          },
-          {
-            "name": "Business Administration Specialist",
-            "certificate": "Superbadge",
-            "date": "January 2024",
-            "tooltip": "Includes Reports & Dashboards for Lightning Experience, Data Security, Customize an Org to Support a New Business Unit, and Create Reports and Dashboards for Sales and Marketing Managers"
-          },
-          {
-            "name": "Approval Process Specialist",
-            "certificate": "Superbadge",
-            "date": "January 2024",
-            "tooltip": "Includes User Approval Process Management Superbadge Unit, and Approval Process Troubleshooting Superbadge Unit"
-          },
-          {
-            "name": "Security Specialist",
-            "certificate": "Superbadge",
-            "date": "January 2024",
-            "tooltip": "Includes User Authentication Specialist Superbadge, Security Governance Specialist Superbadge, and User Access Specialist Superbadge"
-          },
-          {
-            "name": "Apex Specialist",
-            "certificate": "Superbadge",
-            "date": "January 2024",
-            "tooltip": "Includes Apex Triggers, Apex Testing, Asynchronous Apex, and Apex Integration Services"
-          },
-          {
-            "name": "Flow Administration",
-            "certificate": "Superbadge",
-            "date": "January 2024",
-            "tooltip": "Includes Flow Builder Basics and Build a Simple Flow"
-          },
-          {
-            "name": "Lightning Reports & Dashboards Specialist",
-            "certificate": "Superbadge",
-            "date": "December 2023",
-            "tooltip": "Includes Reports & Dashboards for Lightning Experience, Create Reports & Dashboards for Sales and Marketing Managers, and Lightning App Builder Quick Start"
-          },
-          {
-            "name": "Security Governance Specialist",
-            "certificate": "Superbadge",
-            "date": "December 2023",
-            "tooltip": "Includes Authentication Governanace and Access Governance, with modules User Authentication, Data Security, and Privilaged User Responsibilities"
-          },
-          {
-            "name": "User Authentication Specialist",
-            "certificate": "Superbadge",
-            "date": "December 2023",
-            "tooltip": "Includes Credential Security, Multi-Factor and Single Sign-On User Authentication, and User Authentication Troubleshooting"
-          },
-          {
-            "name": "User Access Superbadge",
-            "certificate": "Superbadge",
-            "date": "December 2023",
-            "tooltip": "Includes User Access Fundamentals (with Data Security), Extended User Access & Restriction, and User Access Troubleshooting"
-          },
-          {
-            "name": "Data Standardization Unit",
-            "certificate": "Superbadge",
-            "date": "December 2023",
-            "tooltip": "Includes Data Quality for Sales and Support Teams, and Picklist Administration"
-          },
+          }
         ]
       },
       {

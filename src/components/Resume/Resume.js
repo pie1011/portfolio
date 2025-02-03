@@ -45,14 +45,18 @@ const Resume = (props) => {
                 <div className="info pb-4">
                     {training.data.map(item => {
                         return (
-                            <div key={item.name} className="d-flex flex-column flex-lg-row ps-3">
+                            <div key={item.name} className="d-flex flex-column ps-3">
                                 <h5>
                                     { item.certificate === "Superbadge" ?  <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span> : item.certificate === "Certificate in progress" ? <span className="bull d-none d-lg-inline">&bull; </span> : <span className="bull d-none d-lg-inline">&bull; </span> }
                                     { item.certificate === "Superbadge" ?  <Unit title={item.tooltip} id="t-1"><span className="small text-secondary">{item.name}</span></Unit> : item.certificate === "Certificate in progress" ? <span className="fw-bold">{item.name}</span> : item.name }
                                     { item.certificate === "Heading" ? <p className="d-inline d-lg-none small py-2"><br /> <i>Tap each to view a description of modules included.</i></p> : null }
-                                </h5>
+                                
                                 { item.certificate !== "Superbadge" && item.certificate !== "Heading" ? <em className=" ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em> : item.certificate === "Certificate in progress" || item.certificate === "Superbadge" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0 small text-secondary"> {item.certificate}  <span className="bull text-secondary">&bull;</span> {item.date}</em> : null }
+                                </h5>
+                                <div className=" small ps-5 pb-4" > {item.description} </div>
+
                             </div>
+
                         )
                     })}
                 </div>
@@ -88,8 +92,9 @@ const Resume = (props) => {
                                 <h5>
                                     { item.certificate === "Superbadge" ?  <span className="bull d-none d-lg-inline small text-secondary ps-3"> &bull; </span> : item.certificate === "Certificate in progress" ? <span className="bull d-none d-lg-inline">&bull; </span> : <span className="bull d-none d-lg-inline">&bull; </span> }
                                     { item.certificate === "Superbadge" ?  <span className="small text-secondary">{item.name}</span> : item.certificate === "Certificate in progress" ? <span className="fw-bold">{item.name}</span> : item.name }
+
                                 </h5>
-                                { item.certificate !== "Superbadge" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}</em> : <em className="ps-0 ps-lg-3 pb-3 pb-lg-0 small text-secondary"> {item.certificate}  <span className="bull text-secondary">&bull;</span> {item.date}</em> }
+                                { item.certificate !== "Superbadge" ? <em className="ps-0 ps-lg-3 pb-3 pb-lg-0"> {item.certificate}  <span className="bull">&bull;</span> {item.date}  </em> : <em className="ps-0 ps-lg-3 pb-3 pb-lg-0 small text-secondary"> {item.certificate}  <span className="bull text-secondary">&bull;</span> {item.date} {item.description}</em> }
                             </div>
                         )
                     })}
@@ -167,9 +172,9 @@ const Resume = (props) => {
         <Container id="Resume" className="portfolio-resume d-flex flex-column min-vw-100 min-vh-100 pt-5">
             <Row className="row-cols-1 row-cols-md-2">
                 <Col className="portfolio-resume-container col-md-4 me-1 me-md-5 text-center text-md-end">
-                    <h2 className="display-1 name-header">Training</h2>
+                    <h2 className="display-1 name-header">Education</h2>
                     <p className="lead">
-                        A sampling of certifcations completed or in progress.
+                        A sampling of certificates completed or in progress.
                     </p>
                     <p className="">
                     <a href="https://salesforce.com/trailblazer/katharineharshman" target="_blank" rel="noreferrer"> <i class="bi bi-cloud-fill"></i> View my Trailhead profile</a> for my latest Salesforce training.

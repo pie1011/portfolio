@@ -92,17 +92,21 @@ export const resumeDetails = {
           {
             "name": "Data Analysis",
             "certificate": "Certificate In Progress",
-            "date": "In Progress"
+            "date": "In Progress",
+            "description": "• Understanding of data types and sources, organizing complex data using spreadsheets and Structured Query Language (SQL) databases. Durable skills like critical thinking, communication, collaboration, and creativity, as well as character and leadership skills with a growth mindset. Using visualization and storytelling to present data in meaningful ways. Creating a resume and portfolio, powerful job search tools that showcase innovation, organization and effective use of technology."
+            
           },
           {
             "name": "Project Management",
             "certificate": "Certificate",
-            "date": "January 2025"
+            "date": "January 2025",
+            "description": "• Upon completion of the project management program, students will possess a solid foundation in project management principles, methodologies, and documentation. They will be equipped with the necessary skills to excel in project management-based careers across diverse industries, making valuable contributions to organizations through effective project planning, execution, and control. "
           },
           {
             "name": "CRM Platform Administration",
             "certificate": "Certificate",
-            "date": "January 2024"
+            "date": "January 2024",
+            "description": "• Graduates from the Transition to Technology: Customer Relationship Management Platform Administration program have mastered how to use, configure, monitor, customize, and secure a CRM platform. Graduates have an in-depth understanding of the components and processes involved in customizing and administering a CRM. In addition, graduates utilize best practices for working in a distributed team while demonstrating effective communication skills for workplace interaction."
           }
         ]
       },

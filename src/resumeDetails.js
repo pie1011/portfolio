@@ -179,16 +179,6 @@ export const resumeDetails = {
             "name": "Associate's Degree",
             "certificate": "AA in Liberal Studies, Social & Behavioral Sciences Emphasis",
             "date": "November 2011"
-          },
-          {
-            "name": "Software Testing Processes & Techniques",
-            "certificate": "Certificate",
-            "date": "October 2022"
-          },
-          {
-            "name": "Java Collections from Basic to Advanced",
-            "certificate": "Certificate",
-            "date": "April 2023"
           }
         ]
       }
@@ -397,3 +387,4 @@ export const resumeDetails = {
 // 
 // Chat live link that doesn't always work 
 // https://chatrooms.onrender.com
+

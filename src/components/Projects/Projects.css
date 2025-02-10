@@ -9,7 +9,7 @@
 .portfolio-projects-card-container {
   background-color: var(--color-dark);
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   width: 30%;
   min-width: 300px;
   min-height: 400px;
@@ -30,3 +30,4 @@
   max-width: 250px;
   max-height: 250px;
 }
+

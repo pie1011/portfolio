@@ -14,7 +14,7 @@ const Projects = (props) => {
                 <h2 className="display-1 name-header text-center pt-5">Projects</h2>
                 <p className="text-center pt-5">View business documentation projects from my project management coursework in my <a href="https://sites.google.com/view/project-management-portfolio/" target="blank">Project Management Portfolio</a>!</p>
                 <p className="text-center">Software development project portfolio is under construction. In the meantime, view my <a href="https://github.com/pie1011" target="blank">github</a>, or check out this <a href="https://github.com/pie1011/salon" target="blank">mock salon</a> I made:</p>
-                <Card style={{ width: '80vw' }}>
+                <Card style={{ width: '100%' }}>
                     <a className="portfolio-button-link mx-1" href="https://salon-kh.vercel.app/" target="blank">
                     <Card.Img variant="top" src={SalonPreview} /></a>
                     <Card.Body>
